@@ -15,19 +15,22 @@ When play begins:
 
 The end of the Napoleonic wars saw the start of a great agricultural depression in the United Kingdom that would last for a quarter of a century. Many farms succumbed to abandonment and disrepair as both landlords and tenants fell into bankruptcy. 
 
-It is in the wake of this ruin, far from the bloody fields of Waterloo and Rocquencourt, that you find yourself standing on a long farm road in Suffolk, surrounded by fields of oat, barley and wheat. A dull lifelessness hangs in the air like mist. All is silent, save for the cries of carrion crow circling above. You feel your heart longing for the rural paradise now lost to time and neglect.
+It is in the wake of this ruin, far from the bloody fields of Waterloo and Rocquencourt, that you find yourself standing on a long farm road in Suffolk, surrounded by fields of oat, barley and wheat. A dull lifelessness hangs in the air like the fog of war. All is silent, save for the cries of carrion crow circling above. You feel your heart longing for the rural paradise now lost to time and neglect.
 
 Five hundred miles away, a young author called Mary Shelley has finished writing her first novel, 'The Modern Prometheus'..." ; 
 pause the game.
 
 Part 1 - Environment Setup
 
+Section 1 - Initial setup
+
 When play begins: 
     now right hand status line is "[time of day]"; 
     now left hand status line is "[location]";
     now the time of day is 3:00 PM.
 
-[The Environment]
+Section 2 - the environment
+
 A room is either indoors or outdoors. A room is usually indoors.
 
 A thing can be hidden or visible.
@@ -35,9 +38,33 @@ A thing can be spooky or unspooky. A thing is usually unspooky.
 
 An animal can be comfortable or uncomfortable. An animal is usually uncomfortable.
 
-[Additional Commands]
-Following is an action applying to one visible thing.
-Understand "follow [something]" as following.
+An animal has a room called last location. 
+
+Understand "follow [any thing]" as following. Understand the commands "chase" and "pursue" as "follow".
+
+Following is an action applying to one visible thing. 
+
+Check following:
+	if the noun is the player, say "Wherever you go, there you are." instead;
+	if the noun is visible, say "[The noun] is right here." instead;
+	if the last location of the noun is not the location, say "It's not clear where [the noun] has gone." instead. 
+
+[Using best route]
+Carry out following:
+	let the destination be the location of the noun;
+	if the destination is not a room, say "[The noun] isn't anywhere you can follow." instead;
+	let aim be the best route from the location to the destination;
+	say "(heading [aim])[line break]";
+	try going aim. 
+
+To move (pawn - an animal) tidily to (target - a room):
+    now the last location of the pawn is the holder of the pawn;
+    move the pawn to the target.
+
+
+Section 3 - Additional Commands
+
+Knocking is an action applying to one visible thing. Understand "knock [something]" and "knock on [something]" as knocking. Carry out knocking something: say "You are not sure that knocking on that will achieve anything."
 
 Understand "Pet [something]" and "Stroke [something]" as touching.
 
@@ -50,9 +77,19 @@ Carry out facing:
 
 Instead of facing up when the player is in the outdoors area, try examining the sky.
 
-[Random Atmosphere]
+Section 4 - Random atmosphere
+
 Every turn when a random chance of 1 in 6 succeeds and the location of the player is outdoors:
 	say "[one of]You hear the harsh 'caw' of a crow.[or]You feel a cool breeze.[cycling]"
+
+Section 5 - Out of world commands
+
+To say exit list:
+	let place be location;
+	repeat with way running through directions:
+		let place be the room way from the location;
+		if place is a room, say "[place] is [way]. " 
+
 
 Part 2 - The Outdoor Area
 
@@ -68,6 +105,12 @@ The foliage is a backdrop. "Deep green foliage serves as a natural barrier separ
 The fields of corn is a backdrop. It is in The Outdoors Area. The printed name of the fields of corn is "Corn". Understand "Barley" or "Oats" or "Corn" or "Wheat" or "Fields" or "Field" or "Patchwork" or "Hills" or "Vista" as the fields of corn. The description is "Acres of barley, wheat and oat stretch over the horizon. The fields are wild and unkempt. Many of the crops have been ravaged by disease."
 
 The Cottage Exterior is a backdrop. It is in The Outdoors Area. The printed name of the cottage exterior is "Cottage". Understand "Cottage" or "House" or "Chimney" or "Windows" as the cottage exterior. The description is "The large cottage is comprised of two floors. It is reddish-beige in colour has a thatched roof. A heavy and weather-worn oak door at the front of the cottage serves as the entrance."
+
+To enter the corn:
+	say "The fields of corn seem to go on forever and there would be little point in entering them. [exit list][paragraph break]";
+
+instead of entering the corn:
+	enter the corn.
 
 Chapter 1 - The Farm Path
 
@@ -95,10 +138,11 @@ Instead of touching the cat when the location of the cat is not the farm path an
 
 To move the cat:
 	if the cat is in a room (called the current space):
+		now the last location of the cat is the current space;
 		let next space be a random room which is adjacent to the current space; 
 		let the way be the best route from the location of the cat to the next space;
 		if the cat is visible, say "[printed name of cat in sentence case] heads [way] to [the printed name of the next space in lower case]."; 
-		move the cat to next space; 
+		move the cat tidily to next space; 
 		if the cat is visible, say "[printed name of the cat in sentence case] arrives from the [opposite of way]."
 
 To describe the cat:
@@ -118,7 +162,7 @@ The wooden gate is south of the farm path and north of The Barley Field. The woo
 
 Chapter 2 - The Barley Field
 
-The description of The Barley Field is "[if unvisited]As you enter the barley field, your mind drifts to the fields of battle in the aftermath of Waterloo. The casualties were horrendous, the victory far from glorious. Many of the soldiers who died that day, the 'scum of the earth' as Wellington had described them, had been recruited from villages and hamlets nearby. Wellington had later claimed  that it was 'really wonderful that we should have made these men into the fine fellows they are.' You consider the barrenness of that statement  now that tens of thousands of those fine fellows were dead. Many of those who survived were not the same as they were before the war, having succumbed to war exhaustion or madness, or worse.
+The description of The Barley Field is "[if unvisited]As you enter the barley field, your mind drifts to the fields of battle in the aftermath of Waterloo. The casualties were horrendous, the victory far from glorious. Many of the soldiers who died that day, the 'scum of the earth' as Wellington had described them, had been recruited from villages and hamlets nearby. Wellington had later claimed  that it was 'really wonderful that we should have made these men into the fine fellows they are.' You consider the barrenness of that statement  now that tens of thousands of those fine fellows are dead. Many of those who survived were not the same as they were before the war, having succumbed to war exhaustion or madness, or worse.
 
 The chill wind is making it hard to breathe, and you begin to feel light headed. Further south through the fields you can see the old farm cottage. [otherwise]You are standing in a field of barley. To the north is a wooden gate leading to a farm path. A cottage lies to the south.[end if]". The Barley Field is outdoors. The Barley Field is in the Outdoors Area.
 
@@ -128,19 +172,15 @@ A scarecrow is in The Barley Field. The scarecrow is fixed in place. The scarecr
 
 The scarecrow's head is made from a hessian sack, onto which has been drawn the approximation of a face. You can not tell whether the scarecrow is smiling or frowning, and his eyes stare blankly through you. The scarecrow is soaked through with rain - he has clearly been standing in this field for some time."
 
-The scarecrow is wearing a hat. The description of the hat is "A shapeless cloth hat with a wide, crinkly brim."
-
-The scarecrow is wearing a coat. The description of the coat is "A tattered red coat."
-
-The scarecrow is wearing trousers. The description of the trousers is "An old pair of muddied grey trousers."
-
-The scarecrow is wearing boots. The description of the boots is "A muddy black pair of wellingtons."
+The scarecrow is wearing a hat. The description of the hat is "A shapeless cloth hat with a wide, crinkly brim." The scarecrow is wearing a coat. The description of the coat is "A tattered red coat." The scarecrow is wearing trousers. The description of the trousers is "An old pair of muddied grey trousers." The scarecrow is wearing boots. The description of the boots is "A muddy black pair of wellingtons."
 
 After examining the scarecrow for the first time, say "As you stare at the scarecrow, you feel a deep nausea as you come to accept an affinity with him. You consider the folly in his defence of fields that have been abandoned and ravaged by disease. His battlefield is a barren waste, his war over. He has been standing here so long, the crows are no longer afraid of him. Perhaps now the fight is over, they are his only companions."
 
+instead of removing or taking the scarecrow, say "The scarecrow is fastened tightly to the post."
+
 A post is in The Barley Field. The post is a supporter. "An old rotting wooden post is here. [if the scarecrow is on-stage]Propped up against the post, standing to attention, is a lone scarecrow." Understand "Post" and "Rotting Post" as post. The description of the post is "The old wooden post is a brownish green colour and is damp to the touch."
 
-Instead of going nowhere from the Barley Field, say "The fields of corn seem to go on forever and there would be little point in entering them. The only exits are North towards the farm path and south towards the cottage.";
+Instead of going nowhere from the Barley Field, enter the corn.
 
 There is a note. 
 	
@@ -158,6 +198,8 @@ South of the Barley Field is a room called Front Of The Cottage. The Description
 [if the post is spooky][paragraph break]As you make your way around the front of the cottage, you survey the area to see if you can identify the cause of the banging. Just as you are about to resign to having imagined the sound, you observe to your horror that the field to the north is now empty. [bold type]The scarecrow has left his post![Roman type] You can vaguely make out that something has been nailed to the post in place of the scarecrow, flapping gently in the breeze.[roman type][end if]
 [if strange figure is in the location][bold type]You see a strange figure at the window.[roman type][end if]
 [if the cat is in the location and the cat is uncomfortable][paragraph break]The small black cat from the farm path is here, washing himself among the barley.[end if]"
+
+Instead of going nowhere from the front of the cottage, enter the corn.
 
 Instead of entering the Cottage:
 	if location is Front of the Cottage:
@@ -177,9 +219,11 @@ Instead of going southwest in Front of the cottage, try going southeast.
 	
 before going southeast in Front of the Cottage, say "You follow garden path to the back of the cottage.";
 
-The Front Door is a door. It is south of Front of The Cottage and north of The Lobby. The description of the front door is "A Heavy Oak Door." The front door is scenery. The front door is locked. The rusty key unlocks the front door. Understand "Oak door" or "Heavy oak door" as the front door.
+The Front Door is a door. It is south of Front of The Cottage and north of The Lobby. The description of the front door is "A Heavy Oak Door." The front door is scenery. The front door is locked. The rusty key unlocks the front door. Understand "Oak door" or "Heavy oak door" as the front door. Instead of knocking the front door, say "You knock on the door of the cottage, but nobody answers."
 
-Before opening the front door when the front door is locked, say "You heave with all of your might but the heavy oak door will not budge."
+Before opening or pushing or pulling the front door when the front door is locked:
+	say "You heave with all of your might but the heavy oak door will not budge. It appears to be locked.";
+	stop the action.
 
 After going from Front of the cottage when the post is spooky:
 	now the post is unspooky;
@@ -195,6 +239,8 @@ after examining the strange figure:
 Chapter 4 - Back of the Cottage
 
 Southeast of Front of the Cottage is a room called Back of the Cottage. The description of Back of the Cottage is "[if unvisited]You arrive in an ample-sized clearing of trampled barley which serves as a yard for the cottage. The fields continue off into the distance in all directions.  [otherwise]You are standing at the rear of the cottage.[end if][paragraph break]On the perimeter of the clearing is an old, broken turnwrest plough." It is in the outdoors area.
+
+Instead of going nowhere from the back of the cottage, enter the corn.
 
 A plough is in Back of the Cottage. The plough is a supporter. The plough is scenery. The plough is fixed in place. The description of the plough is "In addition to the rust and general disrepair of the plough, the cumbersome plough also appears to have been damaged - the blades and handles are bent at awkward angles rendering the plough useless." Instead of taking or pushing the plough, say "The plough is too heavy to move." 
 

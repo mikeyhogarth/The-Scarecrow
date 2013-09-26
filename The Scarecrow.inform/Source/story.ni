@@ -77,10 +77,44 @@ Carry out facing:
 
 Instead of facing up when the player is in the outdoors area, try examining the sky.
 
-Section 4 - Random atmosphere
+Section 4 - Atmosphere
 
 Every turn when a random chance of 1 in 6 succeeds and the location of the player is outdoors:
 	say "[one of]You hear the harsh 'caw' of a crow.[or]You feel a cool breeze.[cycling]"
+
+[Letter fragments]
+letters found is a number that varies.
+A letter is a kind of thing. letters are proper-named.
+
+Instead of examining a letter (called the current letter):
+	say "You start the letter:[paragraph break]   ";
+	continue the action.
+
+The first letter is a letter. Understand "Page" or "Page one" or "Page one of letter" as the first letter. The printed name of the first letter is "page one of a letter". The description of the first letter is "[fixed letter spacing]General Hospital, Antwerp, 24th June 1815. After a long silence, I embrace the opportunity of informing you respecting my present situation. On the 15th, about 12 o'clock at night, we turned out and at two in the morning marched from the city of Brussels, to meet the enemy, who were advancing in great force on that city. About three o'clock in the afternoon of the 16th, we came up with them. Our whole force did not exceed 12,000 men, who were fatigued with a long march of upwards of 20 miles, encumbered with knapsacks and other luggage. The day was uncommonly warm, and no water to be had on the road; however, we were brought up, in order of battle. The French being strongly posted in a thick wood, to the number of 40,000 men, including cavalry and lancers, gave us very little time to look around us ere the fight commenced on both sides, in an awful and destructive manner, they having every advantage of us, both as to position and numbers, particularly in cavalry, as the British dragoons had not yet come up.[variable letter spacing][paragraph break]A scrawl at the bottom of the letter indicates that this is part 1 of 4."
+
+The second letter is a letter. Understand "Page" or "Page two" or "Page two of letter" as the second letter. The printed name of the second letter is "page two of a letter". The description of the second letter is "[fixed letter spacing]The French cavalry charged the British line of infantry three different times, and did much execution, until we were obliged to form squares of battalions, in order to turn them, which was executed in a most gallant manner, and many hundreds of them never returned. Still, they sent up French forces and as often we beat them them back. The battle lasted until it was quite dark, when the enemy began to give way, our poor fellows who were left alive following them as long as they could see, when night put an end to the fatigues of a well fought day. Thousands on both sides lay killed and wounded on the field of battle; and, as the greater part of the action lay in corn fields along a vast track of country, many hundreds must have died for want of assistance through the night, who were not able of themselves to crawl away.[variable letter spacing][paragraph break]A scrawl at the bottom of the letter indicates that this is part 4 of 4."
+
+The third letter is a letter. Understand "Page" or "Page three" or "Page three of letter" as the third letter. The printed name of the third letter is "page three of a letter". The description of the third letter is "[fixed letter spacing]I was wounded by a musquet ball, which passed through my right arm and breast, and lodged in my back, from whence it was extracted by a surgeon in the hospital of this place. Captain M. Is most severely wounded, having taken several shots through his body, and the regiment, in general, are mostly cut off. We have heard, since we came here, that our fine brigade, which entered the field on that eventful day, consisting of the 3d batt. Royal Scots, 42d, 44th and 92d regiments, are now formed into one battalion, not exceeding in whole 400 men. Lord Wellington retired in the night, to wait for reinforcements, and next day our cavalry and the rest of the army arrived. The Prussians came on the other side, and I am happy to understand the enemy got a most complete drubbing, losing cannon, baggage  and a great number of prisoners. They retreated towards Valenciennes, and other garrisons on their own frontiers, the allied troops pursuing them.[variable letter spacing][paragraph break]A scrawl at the bottom of the letter indicates that this is part 3 of 4."
+
+The fourth letter is a letter. Understand "Page" or "Page four" or "Page four of letter" as the fourth letter. The printed name of the fourth letter is "page four of a letter". The description of the fourth letter is "[fixed letter spacing]Thus I have given you as full an account of affairs, principally what I witnessed on the 16th, as I could; that relating to the 18th being from report. Nothing can exceed the kindness and attention of the inhabitants of this city to our wounded men : the hospital is constantly filled with ladies and gentlemen, who, although speaking a different language, personally administer to our wants, with the kindest attention, distributing clean shirts, bread, wine, coffee, tea, milk and fruit of all sorts, with every requisite, for our comfort and accommodation.[variable letter spacing][paragraph break]A scrawl at the bottom of the letter indicates that this is the end of the letter."
+
+after examining the foliage for the first time:
+	say "Something in the nearby undergrowth catches your eye - it appears to be a letter.";
+	place a letter in the players room.
+
+after examining the coat for the first time:
+	say "As you run your fingers along the hem of one of the sleeves, a folded piece of paper falls from one of the inside pockets. It appears to be a letter.";
+	place a letter in the players room.	
+
+To place a letter in the players room:
+	increase letters found by 1;
+	if letters found is:
+		-- 1: move the first letter to the location;
+		-- 2: move the second letter to the location;
+		-- 3: move the third letter to the location;
+		-- 4: move the fourth letter to the location;		
+		-- otherwise: say "You are confused!";
+		
 
 Section 5 - Out of world commands
 
@@ -146,12 +180,15 @@ To move the cat:
 		if the cat is visible, say "[printed name of the cat in sentence case] arrives from the [opposite of way]."
 
 To describe the cat:
-	say "[printed name of cat in sentence case] [one of]meows[or]begins scratching in the undergrowth[cycling].[no line break]".			
+	if the cat is comfortable:
+		say "[printed name of cat in sentence case] [one of]meows[or]begins scratching in the undergrowth[cycling].";
+	otherwise:
+		say "[printed name of cat in sentence case] [one of]tilts his head to one side[or]blinks slowly[cycling].".		
 
 Every turn:
-	if a random chance of 1 in 2 succeeds and the cat is comfortable:
+	if a random chance of 1 in 3 succeeds and the cat is comfortable:
 		move the cat;
-	otherwise if a random chance of 1 in 2 succeeds and the location of the cat is the location of the player:
+	otherwise if a random chance of 1 in 3 succeeds and the location of the cat is the location of the player:
 		describe the cat; 
 	
 The actual farm path is scenery in The Farm Path. The printed name of the actual farm path is "Path". Understand "Path" or "Farm Path" as the actual farm path. The description is "A muddy and well trodden farm path stretches in an east to westerly direction."
@@ -195,9 +232,9 @@ Chapter 3 - Front of the Cottage
 
 South of the Barley Field is a room called Front Of The Cottage. The Description of Front Of The Cottage is "[if unvisited]You approach the[otherwise]You stand in[end if] front of a large two storey cottage [if unvisited]that is very familiar to you[end if]. A field of barley lies to the North. A path leads around the side of the cottage to the southwest. The cottage itself is directly south, the entrance blocked by a heavy oak door.[if the scarecrow is off-stage and the location of the note is the barley field and the post is unspooky]
 [paragraph break]In the field to the north you can see something nailed to a post.[end if]
-[if the post is spooky][paragraph break]As you make your way around the front of the cottage, you survey the area to see if you can identify the cause of the banging. Just as you are about to resign to having imagined the sound, you observe to your horror that the field to the north is now empty. [bold type]The scarecrow has left his post![Roman type] You can vaguely make out that something has been nailed to the post in place of the scarecrow, flapping gently in the breeze.[roman type][end if]
-[if strange figure is in the location][bold type]You see a strange figure at the window.[roman type][end if]
+[if strange figure is in the location][bold type][paragraph break]You see a strange figure at one of the cottage's upper windows.[roman type][end if]
 [if the cat is in the location and the cat is uncomfortable][paragraph break]The small black cat from the farm path is here, washing himself among the barley.[end if]"
+
 
 Instead of going nowhere from the front of the cottage, enter the corn.
 
@@ -225,7 +262,10 @@ Before opening or pushing or pulling the front door when the front door is locke
 	say "You heave with all of your might but the heavy oak door will not budge. It appears to be locked.";
 	stop the action.
 
-After going from Front of the cottage when the post is spooky:
+After going from back of the cottage when the post is spooky:
+	clear the screen;
+	say "As you make your way around the front of the cottage, you survey the area to see if you can identify the cause of the banging. Just as you are about to resign to having imagined the sound, you observe to your horror that the field to the north is now empty. [paragraph break]The scarecrow has left his post![paragraph break] You can vaguely make out that something has been nailed to the post in place of the scarecrow, flapping gently in the breeze.[roman type]";
+	pause the game;
 	now the post is unspooky;
 	continue the action.
 

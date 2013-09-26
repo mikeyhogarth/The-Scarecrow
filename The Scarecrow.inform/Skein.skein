@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Skein rootNode="node-0x10868d0" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+<Skein rootNode="node-0x1d668d0" xmlns="http://www.logicalshift.org.uk/IF/Skein">
   <generator>GNOME Inform 7</generator>
-  <activeNode nodeId="node-0x1d87e00"/>
-  <item nodeId="node-0x10868d0">
+  <activeNode nodeId="node-0x1d66b90"/>
+  <item nodeId="node-0x1d668d0">
     <command xml:space="preserve">- start -</command>
     <result xml:space="preserve">
 
@@ -18,19 +18,20 @@ Please press SPACE to continue.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x1086b90"/>
-      <child nodeId="node-0x7f9b4012d880"/>
-      <child nodeId="node-0x1a801c0"/>
-      <child nodeId="node-0x7f9b404bb9a0"/>
+      <child nodeId="node-0x1d66a30"/>
+      <child nodeId="node-0x2349a30"/>
+      <child nodeId="node-0x23aa020"/>
+      <child nodeId="node-0x23ce8d0"/>
+      <child nodeId="node-0x23f11d0"/>
     </children>
   </item>
-  <item nodeId="node-0x1086b90">
+  <item nodeId="node-0x1d66a30">
     <command xml:space="preserve"> </command>
     <result xml:space="preserve">In the winter of 1815, after countless millions had perished, the Napoleonic Wars came to an end. The little corporal Napoleon Bonaparte, emperor of France for the decade previous, was exiled to the volcanic island of St Helena where he would see out the last six years of his life.
 
 The end of the Napoleonic wars saw the start of a great agricultural depression in the United Kingdom that would last for a quarter of a century. Many farms succumbed to abandonment and disrepair as both landlords and tenants fell into bankruptcy.
 
-It is in the wake of this ruin, far from the bloody fields of Waterloo and Rocquencourt, that you find yourself standing on a long farm road in Suffolk, surrounded by fields of oat, barley and wheat. A dull lifelessness hangs in the air like mist. All is silent, save for the cries of carrion crow circling above. You feel your heart longing for the rural paradise now lost to time and neglect.
+It is in the wake of this ruin, far from the bloody fields of Waterloo and Rocquencourt, that you find yourself standing on a long farm road in Suffolk, surrounded by fields of oat, barley and wheat. A dull lifelessness hangs in the air like the fog of war. All is silent, save for the cries of carrion crow circling above. You feel your heart longing for the rural paradise now lost to time and neglect.
 
 Five hundred miles away, a young author called Mary Shelley has finished writing her first novel, &quot;The Modern Prometheus&quot;...
 
@@ -43,15 +44,15 @@ Please press SPACE to continue.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x1086cf0"/>
+      <child nodeId="node-0x1d66b90"/>
     </children>
   </item>
-  <item nodeId="node-0x1086cf0">
+  <item nodeId="node-0x1d66b90">
     <command xml:space="preserve"> </command>
     <result xml:space="preserve">
 The Scarecrow
 An exploration of war and belonging by Mikey Hogarth The story genre is &quot;Horror&quot;
-Release 1 / Serial number 130922 / Inform 7 build 6G60 (I6/v6.32 lib 6/12N) SD
+Release 1 / Serial number 130926 / Inform 7 build 6G60 (I6/v6.32 lib 6/12N) SD
 
 The Farm Path
 You are standing on a muddy farm path. A wooden gate to the south leads into a large barley field which forms part of a patchwork vista of yellow and brown draped over the distant landscape. The fields are separated by deep green foliage. 
@@ -69,19 +70,26 @@ You see a small black cat sheltering under some nearby foliage.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x1086e50"/>
-      <child nodeId="node-0x17bd330"/>
-      <child nodeId="node-0x17bdcd0"/>
-      <child nodeId="node-0x7f9b40596070"/>
-      <child nodeId="node-0x1d87040"/>
+      <child nodeId="node-0x1d66cf0"/>
+      <child nodeId="node-0x2272880"/>
+      <child nodeId="node-0x2272e00"/>
+      <child nodeId="node-0x228cb20"/>
+      <child nodeId="node-0x22d25d0"/>
+      <child nodeId="node-0x22fa5c0"/>
+      <child nodeId="node-0x23264c0"/>
+      <child nodeId="node-0x23491f0"/>
+      <child nodeId="node-0x2349610"/>
+      <child nodeId="node-0x27965b0"/>
+      <child nodeId="node-0x3321840"/>
+      <child nodeId="node-0x3632d00"/>
     </children>
   </item>
-  <item nodeId="node-0x1086e50">
+  <item nodeId="node-0x1d66cf0">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">(first opening the wooden gate)
 
 The Barley Field
-As you enter the barley field, your mind drifts to the fields of battle in the aftermath of Waterloo. The casualties were horrendous, the victory far from glorious. Many of the soldiers who died that day, the &quot;scum of the earth&quot; as Wellington had described them, had been recruited from villages and hamlets nearby. Wellington had later claimed  that it was &quot;really wonderful that we should have made these men into the fine fellows they are.&quot; You consider the barrenness of that statement  now that tens of thousands of those fine fellows were dead. Many of those who survived were not the same as they were before the war, having succumbed to war exhaustion or madness, or worse.
+As you enter the barley field, your mind drifts to the fields of battle in the aftermath of Waterloo. The casualties were horrendous, the victory far from glorious. Many of the soldiers who died that day, the &quot;scum of the earth&quot; as Wellington had described them, had been recruited from villages and hamlets nearby. Wellington had later claimed  that it was &quot;really wonderful that we should have made these men into the fine fellows they are.&quot; You consider the barrenness of that statement  now that tens of thousands of those fine fellows are dead. Many of those who survived were not the same as they were before the war, having succumbed to war exhaustion or madness, or worse.
 
 The chill wind is making it hard to breathe, and you begin to feel light headed. Further south through the fields you can see the old farm cottage. 
 
@@ -94,14 +102,14 @@ An old rotting wooden post is here. Propped up against the post, standing to att
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7f9b4012d040"/>
-      <child nodeId="node-0x7f9b4012d5c0"/>
-      <child nodeId="node-0x7f9b4011aca0"/>
-      <child nodeId="node-0x7f9b405afb20"/>
-      <child nodeId="node-0x1d4f420"/>
+      <child nodeId="node-0x1d66e50"/>
+      <child nodeId="node-0x2206160"/>
+      <child nodeId="node-0x222b360"/>
+      <child nodeId="node-0x224e300"/>
+      <child nodeId="node-0x224eca0"/>
     </children>
   </item>
-  <item nodeId="node-0x7f9b4012d040">
+  <item nodeId="node-0x1d66e50">
     <command xml:space="preserve">remove scarecrow</command>
     <result xml:space="preserve">(first taking the scarecrow)
 I don&apos;t suppose the scarecrow would care for that.
@@ -113,10 +121,10 @@ I don&apos;t suppose the scarecrow would care for that.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7f9b4012d1a0"/>
+      <child nodeId="node-0x2206000"/>
     </children>
   </item>
-  <item nodeId="node-0x7f9b4012d1a0">
+  <item nodeId="node-0x2206000">
     <command xml:space="preserve">get scarecrow</command>
     <result xml:space="preserve">I don&apos;t suppose the scarecrow would care for that.
 
@@ -127,11 +135,11 @@ I don&apos;t suppose the scarecrow would care for that.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x7f9b4012d5c0">
+  <item nodeId="node-0x2206160">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 Front Of The Cottage
-You approach the front of a large two storey cottage that is very familiar to you. A field of barley lies to the North. A path leads around the side of the cottage to the southwest. The cottage itself is directly south, the entrance blocked by a heavy oak door.   
+You approach the front of a large two storey cottage that is very familiar to you. A field of barley lies to the North. A path leads around the side of the cottage to the southwest. The cottage itself is directly south, the entrance blocked by a heavy oak door.  
 
 You hear the harsh &quot;caw&quot; of a crow.
 
@@ -142,12 +150,13 @@ You hear the harsh &quot;caw&quot; of a crow.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7f9b4012d460"/>
-      <child nodeId="node-0x17bd8b0"/>
-      <child nodeId="node-0x7f9b4011a040"/>
+      <child nodeId="node-0x22062c0"/>
+      <child nodeId="node-0x22066e0"/>
+      <child nodeId="node-0x2206840"/>
+      <child nodeId="node-0x2206b00"/>
     </children>
   </item>
-  <item nodeId="node-0x7f9b4012d460">
+  <item nodeId="node-0x22062c0">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 The Barley Field
@@ -162,10 +171,10 @@ An old rotting wooden post is here. Propped up against the post, standing to att
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7f9b4012d300"/>
+      <child nodeId="node-0x2206420"/>
     </children>
   </item>
-  <item nodeId="node-0x7f9b4012d300">
+  <item nodeId="node-0x2206420">
     <command xml:space="preserve">remove scarecrow</command>
     <result xml:space="preserve">(first taking the scarecrow)
 The scarecrow is fastened tightly to the post.
@@ -177,10 +186,10 @@ The scarecrow is fastened tightly to the post.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7f9b4012d720"/>
+      <child nodeId="node-0x2206580"/>
     </children>
   </item>
-  <item nodeId="node-0x7f9b4012d720">
+  <item nodeId="node-0x2206580">
     <command xml:space="preserve">take scarecrow</command>
     <result xml:space="preserve">The scarecrow is fastened tightly to the post.
 
@@ -191,7 +200,7 @@ The scarecrow is fastened tightly to the post.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x17bd8b0">
+  <item nodeId="node-0x22066e0">
     <command xml:space="preserve">push door</command>
     <result xml:space="preserve">It will not budge. It must be locked.
 
@@ -202,7 +211,7 @@ The scarecrow is fastened tightly to the post.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x7f9b4011a040">
+  <item nodeId="node-0x2206840">
     <command xml:space="preserve">open door</command>
     <result xml:space="preserve">You heave with all of your might but the heavy oak door will not budge.
 
@@ -215,10 +224,10 @@ You feel a cool breeze.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7f9b4011a1a0"/>
+      <child nodeId="node-0x22069a0"/>
     </children>
   </item>
-  <item nodeId="node-0x7f9b4011a1a0">
+  <item nodeId="node-0x22069a0">
     <command xml:space="preserve">push door</command>
     <result xml:space="preserve">You heave with all of your might but the heavy oak door will not budge.
 
@@ -229,7 +238,270 @@ You feel a cool breeze.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x7f9b4011aca0">
+  <item nodeId="node-0x2206b00">
+    <command xml:space="preserve">se</command>
+    <result xml:space="preserve">You follow garden path to the back of the cottage.
+
+Back of the Cottage
+You arrive in an ample-sized clearing of trampled barley which serves as a yard for the cottage. The fields continue off into the distance in all directions.  
+
+On the perimeter of the clearing is an old, broken turnwrest plough.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x2206c60"/>
+    </children>
+  </item>
+  <item nodeId="node-0x2206c60">
+    <command xml:space="preserve">x plough</command>
+    <result xml:space="preserve">In addition to the rust and general disrepair of the plough, the cumbersome plough also appears to have been damaged - the blades and handles are bent at awkward angles rendering the plough useless.
+
+Hanging from the plough, you see a rusty key.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x2206dc0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x2206dc0">
+    <command xml:space="preserve">get key</command>
+    <result xml:space="preserve">As you pick up the key, your heart jolts - you hear four loud bangs coming from the front of the cottage, like metal knocking on wood. The sound echoes around the hills and then all is silent again.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x222b0a0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x222b0a0">
+    <command xml:space="preserve">ne</command>
+    <result xml:space="preserve">You follow the garden path around to the front of the cottage.
+
+As you make your way around the front of the cottage, you survey the area to see if you can identify the cause of the banging. Just as you are about to resign to having imagined the sound, you observe to your horror that the field to the north is now empty. 
+
+The scarecrow has left his post!
+
+ You can vaguely make out that something has been nailed to the post in place of the scarecrow, flapping gently in the breeze.
+
+Please press SPACE to continue.
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x222b200"/>
+    </children>
+  </item>
+  <item nodeId="node-0x222b200">
+    <command xml:space="preserve"> </command>
+    <result xml:space="preserve">
+Front Of The Cottage
+You stand in front of a large two storey cottage . A field of barley lies to the North. A path leads around the side of the cottage to the southwest. The cottage itself is directly south, the entrance blocked by a heavy oak door. 
+
+In the field to the north you can see something nailed to a post.  
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x37ab600"/>
+      <child nodeId="node-0x37ab760"/>
+    </children>
+  </item>
+  <item nodeId="node-0x37ab600">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+The Barley Field
+You are standing in a field of barley. To the north is a wooden gate leading to a farm path. A cottage lies to the south.
+
+An old rotting wooden post is here. 
+
+On the post is a note.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x37ab4a0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x37ab4a0">
+    <command xml:space="preserve">x note</command>
+    <result xml:space="preserve">There is a message inscribed onto the note in what looks like charcoal. The author has used aggressive straight lines to etch out each letter. The message reads:
+
+&quot;Your place is in the fields&quot;
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x37ab340"/>
+    </children>
+  </item>
+  <item nodeId="node-0x37ab340">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Front Of The Cottage
+You stand in front of a large two storey cottage . A field of barley lies to the North. A path leads around the side of the cottage to the southwest. The cottage itself is directly south, the entrance blocked by a heavy oak door. 
+
+In the field to the north you can see something nailed to a post. 
+
+You see a strange figure at one of the cottage&apos;s upper windows. 
+
+You feel a cool breeze.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x37ab760">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">(first opening the Front Door)
+You heave with all of your might but the heavy oak door will not budge. It appears to be locked.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x37ab8c0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x37ab8c0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+The Barley Field
+You are standing in a field of barley. To the north is a wooden gate leading to a farm path. A cottage lies to the south.
+
+An old rotting wooden post is here. 
+
+On the post is a note.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x37aba20"/>
+    </children>
+  </item>
+  <item nodeId="node-0x37aba20">
+    <command xml:space="preserve">x note</command>
+    <result xml:space="preserve">There is a message inscribed onto the note in what looks like charcoal. The author has used aggressive straight lines to etch out each letter. The message reads:
+
+&quot;Your place is in the fields&quot;
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x37abb80"/>
+    </children>
+  </item>
+  <item nodeId="node-0x37abb80">
+    <command xml:space="preserve">x coat</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x37abce0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x37abce0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+The Farm Path
+A wooden gate to the south leads to a field of barley. 
+
+You see a small black cat sheltering under some nearby foliage.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x37abe40"/>
+    </children>
+  </item>
+  <item nodeId="node-0x37abe40">
+    <command xml:space="preserve">x undergrowth</command>
+    <result xml:space="preserve">Deep green foliage serves as a natural barrier separating the fields.
+
+Something in the nearby undergrowth catches your eye - it appears to be a letter.
+
+The cat tilts his head to one side.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x3911030"/>
+    </children>
+  </item>
+  <item nodeId="node-0x3911030">
+    <command xml:space="preserve">x letter</command>
+    <result xml:space="preserve">You start the letter:
+
+   
+General Hospital, Antwerp, 24th June 1815. After a long silence, I embrace the opportunity of informing you respecting my present situation. On the 15th, about 12 o&apos;clock at night, we turned out and at two in the morning marched from the city of Brussels, to meet the enemy, who were advancing in great force on that city. About three o&apos;clock in the afternoon of the 16th, we came up with them. Our whole force did not exceed 12,000 men, who were fatigued with a long march of upwards of 20 miles, encumbered with knapsacks and other luggage. The day was uncommonly warm, and no water to be had on the road; however, we were brought up, in order of battle. The French being strongly posted in a thick wood, to the number of 40,000 men, including cavalry and lancers, gave us very little time to look around us ere the fight commenced on both sides, in an awful and destructive manner, they having every advantage of us, both as to position and numbers, particularly in cavalry, as the British dragoons had not yet come up.
+
+A scrawl at the bottom of the letter indicates that this is part 1 of 4.
+
+The cat blinks slowly.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x222b360">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">The fields of corn seem to go on forever and there would be little point in entering them. The Farm Path is north. Front Of The Cottage is south. 
 You hear the harsh &quot;caw&quot; of a crow.
@@ -241,11 +513,11 @@ You hear the harsh &quot;caw&quot; of a crow.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7f9b4011ab40"/>
-      <child nodeId="node-0x1a80b60"/>
+      <child nodeId="node-0x222b4c0"/>
+      <child nodeId="node-0x224e040"/>
     </children>
   </item>
-  <item nodeId="node-0x7f9b4011ab40">
+  <item nodeId="node-0x222b4c0">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">The fields of corn seem to go on forever and there would be little point in entering them. The Farm Path is north. Front Of The Cottage is south. 
 You feel a cool breeze.
@@ -257,10 +529,10 @@ You feel a cool breeze.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x1ae2b30"/>
+      <child nodeId="node-0x222b620"/>
     </children>
   </item>
-  <item nodeId="node-0x1ae2b30">
+  <item nodeId="node-0x222b620">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 Front Of The Cottage
@@ -273,10 +545,10 @@ You approach the front of a large two storey cottage that is very familiar to yo
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x1ae2c90"/>
+      <child nodeId="node-0x222b780"/>
     </children>
   </item>
-  <item nodeId="node-0x1ae2c90">
+  <item nodeId="node-0x222b780">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">The fields of corn seem to go on forever and there would be little point in entering them. The Barley Field is north. The Lobby is south. Back of the Cottage is southeast. 
 &gt;</result>
@@ -286,10 +558,10 @@ You approach the front of a large two storey cottage that is very familiar to yo
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x1ae2df0"/>
+      <child nodeId="node-0x222b8e0"/>
     </children>
   </item>
-  <item nodeId="node-0x1ae2df0">
+  <item nodeId="node-0x222b8e0">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">The fields of corn seem to go on forever and there would be little point in entering them. The Barley Field is north. The Lobby is south. Back of the Cottage is southeast. 
 &gt;</result>
@@ -299,10 +571,10 @@ You approach the front of a large two storey cottage that is very familiar to yo
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7f9b404bb000"/>
+      <child nodeId="node-0x222ba40"/>
     </children>
   </item>
-  <item nodeId="node-0x7f9b404bb000">
+  <item nodeId="node-0x222ba40">
     <command xml:space="preserve">sw</command>
     <result xml:space="preserve">You follow garden path to the back of the cottage.
 
@@ -318,10 +590,10 @@ On the perimeter of the clearing is an old, broken turnwrest plough.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7f9b404bb160"/>
+      <child nodeId="node-0x222bba0"/>
     </children>
   </item>
-  <item nodeId="node-0x7f9b404bb160">
+  <item nodeId="node-0x222bba0">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">The fields of corn seem to go on forever and there would be little point in entering them. Front Of The Cottage is northwest. 
 &gt;</result>
@@ -331,10 +603,10 @@ On the perimeter of the clearing is an old, broken turnwrest plough.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7f9b404bb2c0"/>
+      <child nodeId="node-0x222bd00"/>
     </children>
   </item>
-  <item nodeId="node-0x7f9b404bb2c0">
+  <item nodeId="node-0x222bd00">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">I beg your pardon?
 
@@ -345,10 +617,10 @@ On the perimeter of the clearing is an old, broken turnwrest plough.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7f9b404bb420"/>
+      <child nodeId="node-0x222be60"/>
     </children>
   </item>
-  <item nodeId="node-0x7f9b404bb420">
+  <item nodeId="node-0x222be60">
     <command xml:space="preserve">enter corn</command>
     <result xml:space="preserve">That&apos;s not something you can enter.
 
@@ -359,7 +631,7 @@ On the perimeter of the clearing is an old, broken turnwrest plough.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x1a80b60">
+  <item nodeId="node-0x224e040">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 Front Of The Cottage
@@ -372,10 +644,10 @@ You approach the front of a large two storey cottage that is very familiar to yo
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x1a80a00"/>
+      <child nodeId="node-0x224e1a0"/>
     </children>
   </item>
-  <item nodeId="node-0x1a80a00">
+  <item nodeId="node-0x224e1a0">
     <command xml:space="preserve">ne</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -386,7 +658,7 @@ You approach the front of a large two storey cottage that is very familiar to yo
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x7f9b405afb20">
+  <item nodeId="node-0x224e300">
     <command xml:space="preserve">m</command>
     <result xml:space="preserve">That&apos;s not a verb I recognise.
 
@@ -397,10 +669,10 @@ You approach the front of a large two storey cottage that is very familiar to yo
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7f9b405af9c0"/>
+      <child nodeId="node-0x224e460"/>
     </children>
   </item>
-  <item nodeId="node-0x7f9b405af9c0">
+  <item nodeId="node-0x224e460">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 The Farm Path
@@ -415,10 +687,10 @@ You see a small black cat sheltering under some nearby foliage.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7f9b405afc80"/>
+      <child nodeId="node-0x224e5c0"/>
     </children>
   </item>
-  <item nodeId="node-0x7f9b405afc80">
+  <item nodeId="node-0x224e5c0">
     <command xml:space="preserve">pet cat</command>
     <result xml:space="preserve">As you approach the cat, it flees into the undergrowth.
 
@@ -431,10 +703,10 @@ You hear the harsh &quot;caw&quot; of a crow.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7f9b405afde0"/>
+      <child nodeId="node-0x224e720"/>
     </children>
   </item>
-  <item nodeId="node-0x7f9b405afde0">
+  <item nodeId="node-0x224e720">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 The Barley Field
@@ -449,10 +721,10 @@ An old rotting wooden post is here. Propped up against the post, standing to att
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x1d4f000"/>
+      <child nodeId="node-0x224e880"/>
     </children>
   </item>
-  <item nodeId="node-0x1d4f000">
+  <item nodeId="node-0x224e880">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 Front Of The Cottage
@@ -467,10 +739,10 @@ The small black cat from the farm path is here, washing himself among the barley
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x1d4f160"/>
+      <child nodeId="node-0x224e9e0"/>
     </children>
   </item>
-  <item nodeId="node-0x1d4f160">
+  <item nodeId="node-0x224e9e0">
     <command xml:space="preserve">pet cat</command>
     <result xml:space="preserve">The cat seems more comfortable around you now.
 
@@ -483,10 +755,10 @@ The cat heads southeast to back of the cottage.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x1d4f2c0"/>
+      <child nodeId="node-0x224eb40"/>
     </children>
   </item>
-  <item nodeId="node-0x1d4f2c0">
+  <item nodeId="node-0x224eb40">
     <command xml:space="preserve">follow cat</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -497,7 +769,7 @@ The cat heads southeast to back of the cottage.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x1d4f420">
+  <item nodeId="node-0x224eca0">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 The Farm Path
@@ -512,10 +784,10 @@ You see a small black cat sheltering under some nearby foliage.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x1d4f580"/>
+      <child nodeId="node-0x224ee00"/>
     </children>
   </item>
-  <item nodeId="node-0x1d4f580">
+  <item nodeId="node-0x224ee00">
     <command xml:space="preserve">pet cat</command>
     <result xml:space="preserve">As you approach the cat, it flees into the undergrowth.
 
@@ -526,10 +798,10 @@ You see a small black cat sheltering under some nearby foliage.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x1d4f6e0"/>
+      <child nodeId="node-0x2272040"/>
     </children>
   </item>
-  <item nodeId="node-0x1d4f6e0">
+  <item nodeId="node-0x2272040">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 The Barley Field
@@ -546,10 +818,10 @@ You hear the harsh &quot;caw&quot; of a crow.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x1d4f840"/>
+      <child nodeId="node-0x22721a0"/>
     </children>
   </item>
-  <item nodeId="node-0x1d4f840">
+  <item nodeId="node-0x22721a0">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 Front Of The Cottage
@@ -564,10 +836,10 @@ The small black cat from the farm path is here, washing himself among the barley
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x1d4f9a0"/>
+      <child nodeId="node-0x2272300"/>
     </children>
   </item>
-  <item nodeId="node-0x1d4f9a0">
+  <item nodeId="node-0x2272300">
     <command xml:space="preserve">pet cat</command>
     <result xml:space="preserve">The cat seems more comfortable around you now.
 
@@ -580,10 +852,10 @@ The cat heads north to the barley field.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x1d4fb00"/>
+      <child nodeId="node-0x2272460"/>
     </children>
   </item>
-  <item nodeId="node-0x1d4fb00">
+  <item nodeId="node-0x2272460">
     <command xml:space="preserve">l</command>
     <result xml:space="preserve">Front Of The Cottage
 You stand in front of a large two storey cottage . A field of barley lies to the North. A path leads around the side of the cottage to the southwest. The cottage itself is directly south, the entrance blocked by a heavy oak door.   
@@ -597,10 +869,10 @@ The cat arrives from the north.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x1d4fc60"/>
+      <child nodeId="node-0x22725c0"/>
     </children>
   </item>
-  <item nodeId="node-0x1d4fc60">
+  <item nodeId="node-0x22725c0">
     <command xml:space="preserve">l</command>
     <result xml:space="preserve">Front Of The Cottage
 You stand in front of a large two storey cottage . A field of barley lies to the North. A path leads around the side of the cottage to the southwest. The cottage itself is directly south, the entrance blocked by a heavy oak door.   
@@ -616,10 +888,10 @@ The cat heads north to the barley field.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x1d4fdc0"/>
+      <child nodeId="node-0x2272720"/>
     </children>
   </item>
-  <item nodeId="node-0x1d4fdc0">
+  <item nodeId="node-0x2272720">
     <command xml:space="preserve">follow cat</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -630,7 +902,7 @@ The cat heads north to the barley field.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x17bd330">
+  <item nodeId="node-0x2272880">
     <command xml:space="preserve">knock gate</command>
     <result xml:space="preserve">You are not sure that knocking this will achieve anything.
 
@@ -642,10 +914,10 @@ The cat meows.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x17bd490"/>
+      <child nodeId="node-0x22729e0"/>
     </children>
   </item>
-  <item nodeId="node-0x17bd490">
+  <item nodeId="node-0x22729e0">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">(first opening the wooden gate)
 
@@ -663,10 +935,10 @@ An old rotting wooden post is here. Propped up against the post, standing to att
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x17bd5f0"/>
+      <child nodeId="node-0x2272b40"/>
     </children>
   </item>
-  <item nodeId="node-0x17bd5f0">
+  <item nodeId="node-0x2272b40">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 Front Of The Cottage
@@ -679,10 +951,10 @@ You approach the front of a large two storey cottage that is very familiar to yo
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x17bd750"/>
+      <child nodeId="node-0x2272ca0"/>
     </children>
   </item>
-  <item nodeId="node-0x17bd750">
+  <item nodeId="node-0x2272ca0">
     <command xml:space="preserve">knock door</command>
     <result xml:space="preserve">You knock on the door of the cottage, but nobody answers.
 
@@ -693,7 +965,7 @@ You approach the front of a large two storey cottage that is very familiar to yo
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x17bdcd0">
+  <item nodeId="node-0x2272e00">
     <command xml:space="preserve"> s</command>
     <result xml:space="preserve">(first opening the wooden gate)
 
@@ -711,11 +983,11 @@ An old rotting wooden post is here. Propped up against the post, standing to att
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x17bdb70"/>
-      <child nodeId="node-0x7f9b4011a460"/>
+      <child nodeId="node-0x228c020"/>
+      <child nodeId="node-0x228c440"/>
     </children>
   </item>
-  <item nodeId="node-0x17bdb70">
+  <item nodeId="node-0x228c020">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 Front Of The Cottage
@@ -730,10 +1002,10 @@ You hear the harsh &quot;caw&quot; of a crow.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x17bda10"/>
+      <child nodeId="node-0x228c180"/>
     </children>
   </item>
-  <item nodeId="node-0x17bda10">
+  <item nodeId="node-0x228c180">
     <command xml:space="preserve">push door</command>
     <result xml:space="preserve">You heave with all of your might but the heavy oak door will not budge.
 
@@ -746,10 +1018,10 @@ It is fixed in place.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x17bde30"/>
+      <child nodeId="node-0x228c2e0"/>
     </children>
   </item>
-  <item nodeId="node-0x17bde30">
+  <item nodeId="node-0x228c2e0">
     <command xml:space="preserve">open door</command>
     <result xml:space="preserve">You heave with all of your might but the heavy oak door will not budge.
 
@@ -762,7 +1034,7 @@ It seems to be locked.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x7f9b4011a460">
+  <item nodeId="node-0x228c440">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">I beg your pardon?
 
@@ -773,10 +1045,10 @@ It seems to be locked.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7f9b4011a300"/>
+      <child nodeId="node-0x228c5a0"/>
     </children>
   </item>
-  <item nodeId="node-0x7f9b4011a300">
+  <item nodeId="node-0x228c5a0">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 Front Of The Cottage
@@ -789,10 +1061,10 @@ You approach the front of a large two storey cottage that is very familiar to yo
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7f9b4011a5c0"/>
+      <child nodeId="node-0x228c700"/>
     </children>
   </item>
-  <item nodeId="node-0x7f9b4011a5c0">
+  <item nodeId="node-0x228c700">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">(first opening the Front Door)
 You heave with all of your might but the heavy oak door will not budge. It appears to be locked.
@@ -804,10 +1076,10 @@ You heave with all of your might but the heavy oak door will not budge. It appea
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7f9b4011a720"/>
+      <child nodeId="node-0x228c860"/>
     </children>
   </item>
-  <item nodeId="node-0x7f9b4011a720">
+  <item nodeId="node-0x228c860">
     <command xml:space="preserve">se</command>
     <result xml:space="preserve">You follow garden path to the back of the cottage.
 
@@ -823,10 +1095,10 @@ On the perimeter of the clearing is an old, broken turnwrest plough.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7f9b4011a880"/>
+      <child nodeId="node-0x228c9c0"/>
     </children>
   </item>
-  <item nodeId="node-0x7f9b4011a880">
+  <item nodeId="node-0x228c9c0">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -837,7 +1109,7 @@ On the perimeter of the clearing is an old, broken turnwrest plough.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x7f9b40596070">
+  <item nodeId="node-0x228cb20">
     <command xml:space="preserve">follow gate</command>
     <result xml:space="preserve">The wooden gate is right here.
 
@@ -849,10 +1121,10 @@ The cat meows.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7f9b405961d0"/>
+      <child nodeId="node-0x228cc80"/>
     </children>
   </item>
-  <item nodeId="node-0x7f9b405961d0">
+  <item nodeId="node-0x228cc80">
     <command xml:space="preserve">follow cat</command>
     <result xml:space="preserve">the cat is right here.
 
@@ -864,10 +1136,10 @@ The cat begins scratching in the undergrowth.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7f9b40596330"/>
+      <child nodeId="node-0x228cde0"/>
     </children>
   </item>
-  <item nodeId="node-0x7f9b40596330">
+  <item nodeId="node-0x228cde0">
     <command xml:space="preserve">touch cat</command>
     <result xml:space="preserve">As you approach the cat, it flees into the undergrowth.
 
@@ -878,10 +1150,10 @@ The cat begins scratching in the undergrowth.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7f9b40596490"/>
+      <child nodeId="node-0x22af090"/>
     </children>
   </item>
-  <item nodeId="node-0x7f9b40596490">
+  <item nodeId="node-0x22af090">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">(first opening the wooden gate)
 
@@ -899,10 +1171,10 @@ An old rotting wooden post is here. Propped up against the post, standing to att
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7f9b405965f0"/>
+      <child nodeId="node-0x22af1f0"/>
     </children>
   </item>
-  <item nodeId="node-0x7f9b405965f0">
+  <item nodeId="node-0x22af1f0">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 Front Of The Cottage
@@ -918,10 +1190,10 @@ The cat meows.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7f9b40596750"/>
+      <child nodeId="node-0x22af350"/>
     </children>
   </item>
-  <item nodeId="node-0x7f9b40596750">
+  <item nodeId="node-0x22af350">
     <command xml:space="preserve">follow path</command>
     <result xml:space="preserve">You follow garden path to the back of the cottage.
 
@@ -937,10 +1209,10 @@ On the perimeter of the clearing is an old, broken turnwrest plough.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7f9b405968b0"/>
+      <child nodeId="node-0x22af4b0"/>
     </children>
   </item>
-  <item nodeId="node-0x7f9b405968b0">
+  <item nodeId="node-0x22af4b0">
     <command xml:space="preserve">ne</command>
     <result xml:space="preserve">You follow the garden path around to the front of the cottage.
 
@@ -956,10 +1228,10 @@ The small black cat from the farm path is here, washing himself among the barley
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7f9b40596a10"/>
+      <child nodeId="node-0x22af610"/>
     </children>
   </item>
-  <item nodeId="node-0x7f9b40596a10">
+  <item nodeId="node-0x22af610">
     <command xml:space="preserve">pet cat</command>
     <result xml:space="preserve">The cat seems more comfortable around you now.
 
@@ -974,10 +1246,10 @@ The cat heads southeast to back of the cottage.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7f9b40596b70"/>
+      <child nodeId="node-0x22af770"/>
     </children>
   </item>
-  <item nodeId="node-0x7f9b40596b70">
+  <item nodeId="node-0x22af770">
     <command xml:space="preserve">follow cat</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -988,10 +1260,10 @@ The cat heads southeast to back of the cottage.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7f9b40596cd0"/>
+      <child nodeId="node-0x22af8d0"/>
     </children>
   </item>
-  <item nodeId="node-0x7f9b40596cd0">
+  <item nodeId="node-0x22af8d0">
     <command xml:space="preserve">chase cat</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -1002,10 +1274,10 @@ The cat heads southeast to back of the cottage.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7f9b40596e30"/>
+      <child nodeId="node-0x22afa30"/>
     </children>
   </item>
-  <item nodeId="node-0x7f9b40596e30">
+  <item nodeId="node-0x22afa30">
     <command xml:space="preserve">follow myself</command>
     <result xml:space="preserve">Wherever you go, there you are.
 
@@ -1018,10 +1290,10 @@ You feel a cool breeze.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7f9b405af020"/>
+      <child nodeId="node-0x22afb90"/>
     </children>
   </item>
-  <item nodeId="node-0x7f9b405af020">
+  <item nodeId="node-0x22afb90">
     <command xml:space="preserve">se</command>
     <result xml:space="preserve">You follow garden path to the back of the cottage.
 
@@ -1041,10 +1313,10 @@ The cat heads northwest to front of the cottage.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7f9b405af180"/>
+      <child nodeId="node-0x22afcf0"/>
     </children>
   </item>
-  <item nodeId="node-0x7f9b405af180">
+  <item nodeId="node-0x22afcf0">
     <command xml:space="preserve">follow cat</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -1055,10 +1327,10 @@ The cat heads northwest to front of the cottage.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7f9b405af2e0"/>
+      <child nodeId="node-0x22afe50"/>
     </children>
   </item>
-  <item nodeId="node-0x7f9b405af2e0">
+  <item nodeId="node-0x22afe50">
     <command xml:space="preserve">ne</command>
     <result xml:space="preserve">You follow the garden path around to the front of the cottage.
 
@@ -1076,10 +1348,10 @@ You hear the harsh &quot;caw&quot; of a crow.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7f9b405af440"/>
+      <child nodeId="node-0x22d2050"/>
     </children>
   </item>
-  <item nodeId="node-0x7f9b405af440">
+  <item nodeId="node-0x22d2050">
     <command xml:space="preserve">follow cat</command>
     <result xml:space="preserve">the cat is right here.
 
@@ -1092,10 +1364,10 @@ The cat heads north to the barley field.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7f9b405af5a0"/>
+      <child nodeId="node-0x22d21b0"/>
     </children>
   </item>
-  <item nodeId="node-0x7f9b405af5a0">
+  <item nodeId="node-0x22d21b0">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 The Barley Field
@@ -1114,10 +1386,10 @@ The cat heads south to front of the cottage.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7f9b405af700"/>
+      <child nodeId="node-0x22d2310"/>
     </children>
   </item>
-  <item nodeId="node-0x7f9b405af700">
+  <item nodeId="node-0x22d2310">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 Front Of The Cottage
@@ -1134,10 +1406,10 @@ The cat heads southeast to back of the cottage.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7f9b405af860"/>
+      <child nodeId="node-0x22d2470"/>
     </children>
   </item>
-  <item nodeId="node-0x7f9b405af860">
+  <item nodeId="node-0x22d2470">
     <command xml:space="preserve">se</command>
     <result xml:space="preserve">You follow garden path to the back of the cottage.
 
@@ -1156,21 +1428,21 @@ The cat begins scratching in the undergrowth.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x1d87040">
+  <item nodeId="node-0x22d25d0">
     <command xml:space="preserve">stroke cat</command>
     <result xml:space="preserve">As you approach the cat, it flees into the undergrowth.
 
 &gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
+    <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x1d871a0"/>
+      <child nodeId="node-0x22d2730"/>
     </children>
   </item>
-  <item nodeId="node-0x1d871a0">
+  <item nodeId="node-0x22d2730">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">(first opening the wooden gate)
 
@@ -1185,15 +1457,15 @@ You hear the harsh &quot;caw&quot; of a crow.
 
 &gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
+    <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x1d87300"/>
+      <child nodeId="node-0x22d2890"/>
     </children>
   </item>
-  <item nodeId="node-0x1d87300">
+  <item nodeId="node-0x22d2890">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 Front Of The Cottage
@@ -1205,15 +1477,15 @@ You feel a cool breeze.
 
 &gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
+    <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x1d87460"/>
+      <child nodeId="node-0x22d29f0"/>
     </children>
   </item>
-  <item nodeId="node-0x1d87460">
+  <item nodeId="node-0x22d29f0">
     <command xml:space="preserve">stroke cat</command>
     <result xml:space="preserve">The cat seems more comfortable around you now.
 
@@ -1221,15 +1493,15 @@ The cat heads north to the barley field.
 
 &gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
+    <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x1d875c0"/>
+      <child nodeId="node-0x22d2b50"/>
     </children>
   </item>
-  <item nodeId="node-0x1d875c0">
+  <item nodeId="node-0x22d2b50">
     <command xml:space="preserve">follow cat</command>
     <result xml:space="preserve">(heading north)
 
@@ -1244,16 +1516,16 @@ The cat heads south to front of the cottage.
 
 &gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
+    <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x1d87720"/>
-      <child nodeId="node-0x1d879e0"/>
+      <child nodeId="node-0x22d2cb0"/>
+      <child nodeId="node-0x22d2e10"/>
     </children>
   </item>
-  <item nodeId="node-0x1d87720">
+  <item nodeId="node-0x22d2cb0">
     <command xml:space="preserve">follow the cat</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -1264,7 +1536,7 @@ The cat heads south to front of the cottage.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x1d879e0">
+  <item nodeId="node-0x22d2e10">
     <command xml:space="preserve">follow cat</command>
     <result xml:space="preserve">(heading south)
 
@@ -1277,15 +1549,15 @@ You hear the harsh &quot;caw&quot; of a crow.
 
 &gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
+    <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x1d87880"/>
+      <child nodeId="node-0x22fa040"/>
     </children>
   </item>
-  <item nodeId="node-0x1d87880">
+  <item nodeId="node-0x22fa040">
     <command xml:space="preserve">follow path</command>
     <result xml:space="preserve">(the garden path)
 You follow garden path to the back of the cottage.
@@ -1297,29 +1569,29 @@ On the perimeter of the clearing is an old, broken turnwrest plough.
 
 &gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
+    <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x1d87b40"/>
+      <child nodeId="node-0x22fa1a0"/>
     </children>
   </item>
-  <item nodeId="node-0x1d87b40">
+  <item nodeId="node-0x22fa1a0">
     <command xml:space="preserve">follow cat</command>
     <result xml:space="preserve">It&apos;s not clear where the cat has gone.
 
 &gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
+    <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x1d87ca0"/>
+      <child nodeId="node-0x22fa300"/>
     </children>
   </item>
-  <item nodeId="node-0x1d87ca0">
+  <item nodeId="node-0x22fa300">
     <command xml:space="preserve">ne</command>
     <result xml:space="preserve">You follow the garden path around to the front of the cottage.
 
@@ -1331,15 +1603,15 @@ You can see the cat here.
 The cat meows.
 &gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
+    <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x1d87e00"/>
+      <child nodeId="node-0x22fa460"/>
     </children>
   </item>
-  <item nodeId="node-0x1d87e00">
+  <item nodeId="node-0x22fa460">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 The Barley Field
@@ -1351,20 +1623,135 @@ The cat arrives from the south.
 
 &gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
+    <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x7f9b4012d880">
-    <command xml:space="preserve"></command>
-    <result xml:space="preserve">In the winter of 1815, after countless millions had perished, the Napoleonic Wars came to an end. The little corporal Napoleon Bonaparte, emperor of France for the decade previous, was exiled to the volcanic island of St Helena where he would see out the last six years of his life.
+  <item nodeId="node-0x22fa5c0">
+    <command xml:space="preserve">ss</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
 
-The end of the Napoleonic wars saw the start of a great agricultural depression in the United Kingdom that would last for a quarter of a century. Many farms succumbed to abandonment and disrepair as both landlords and tenants fell into bankruptcy.
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x22fa720"/>
+    </children>
+  </item>
+  <item nodeId="node-0x22fa720">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">(first opening the wooden gate)
 
-It is in the wake of this ruin, far from the bloody fields of Waterloo and Rocquencourt, that you find yourself standing on a long farm road in Suffolk, surrounded by fields of oat, barley and wheat. A dull lifelessness hangs in the air like mist. All is silent, save for the cries of carrion crow circling above. You feel your heart longing for the rural paradise now lost to time and neglect.
+The Barley Field
+As you enter the barley field, your mind drifts to the fields of battle in the aftermath of Waterloo. The casualties were horrendous, the victory far from glorious. Many of the soldiers who died that day, the &quot;scum of the earth&quot; as Wellington had described them, had been recruited from villages and hamlets nearby. Wellington had later claimed  that it was &quot;really wonderful that we should have made these men into the fine fellows they are.&quot; You consider the barrenness of that statement  now that tens of thousands of those fine fellows are dead. Many of those who survived were not the same as they were before the war, having succumbed to war exhaustion or madness, or worse.
 
-Five hundred miles away, a young author called Mary Shelley has finished writing her first novel, &quot;The Modern Prometheus&quot;...
+The chill wind is making it hard to breathe, and you begin to feel light headed. Further south through the fields you can see the old farm cottage. 
+
+An old rotting wooden post is here. Propped up against the post, standing to attention, is a lone scarecrow.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x22fa880"/>
+    </children>
+  </item>
+  <item nodeId="node-0x22fa880">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Front Of The Cottage
+You approach the front of a large two storey cottage that is very familiar to you. A field of barley lies to the North. A path leads around the side of the cottage to the southwest. The cottage itself is directly south, the entrance blocked by a heavy oak door.   
+
+You hear the harsh &quot;caw&quot; of a crow.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x22fa9e0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x22fa9e0">
+    <command xml:space="preserve">se</command>
+    <result xml:space="preserve">You follow garden path to the back of the cottage.
+
+Back of the Cottage
+You arrive in an ample-sized clearing of trampled barley which serves as a yard for the cottage. The fields continue off into the distance in all directions.  
+
+On the perimeter of the clearing is an old, broken turnwrest plough.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x22fab40"/>
+    </children>
+  </item>
+  <item nodeId="node-0x22fab40">
+    <command xml:space="preserve">x plough</command>
+    <result xml:space="preserve">In addition to the rust and general disrepair of the plough, the cumbersome plough also appears to have been damaged - the blades and handles are bent at awkward angles rendering the plough useless.
+
+Hanging from the plough, you see a rusty key.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x22faca0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x22faca0">
+    <command xml:space="preserve">get key</command>
+    <result xml:space="preserve">As you pick up the key, your heart jolts - you hear four loud bangs coming from the front of the cottage, like metal knocking on wood. The sound echoes around the hills and then all is silent again.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x22fae00"/>
+    </children>
+  </item>
+  <item nodeId="node-0x22fae00">
+    <command xml:space="preserve">ne</command>
+    <result xml:space="preserve">You follow the garden path around to the front of the cottage.
+
+Front Of The Cottage
+You stand in front of a large two storey cottage . A field of barley lies to the North. A path leads around the side of the cottage to the southwest. The cottage itself is directly south, the entrance blocked by a heavy oak door. 
+
+As you make your way around the front of the cottage, you survey the area to see if you can identify the cause of the banging. Just as you are about to resign to having imagined the sound, you observe to your horror that the field to the north is now empty. The scarecrow has left his post! You can vaguely make out that something has been nailed to the post in place of the scarecrow, flapping gently in the breeze.  
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x23260a0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x23260a0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">OMG NO SCARECROW!
 
 
 Please press SPACE to continue.
@@ -1375,11 +1762,1229 @@ Please press SPACE to continue.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7f9b4012d9e0"/>
-      <child nodeId="node-0x7f9b4011ae00"/>
+      <child nodeId="node-0x2326200"/>
     </children>
   </item>
-  <item nodeId="node-0x7f9b4012d9e0">
+  <item nodeId="node-0x2326200">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve"></result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x2326360"/>
+    </children>
+  </item>
+  <item nodeId="node-0x2326360">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">
+The Barley Field
+You are standing in a field of barley. To the north is a wooden gate leading to a farm path. A cottage lies to the south.
+
+An old rotting wooden post is here. 
+
+On the post is a note.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x23264c0">
+    <command xml:space="preserve">x cat</command>
+    <result xml:space="preserve">The cat stares at you with wide yellow eyes which convey both curiosity and caution in equal measures.
+
+As you watch the cat, you suddenly become aware of a letter on the ground next to him, previously obscured.
+
+The cat meows.
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x2326620"/>
+      <child nodeId="node-0x2326d00"/>
+      <child nodeId="node-0x2796b30"/>
+      <child nodeId="node-0x3321160"/>
+      <child nodeId="node-0x3321580"/>
+      <child nodeId="node-0x344f020"/>
+    </children>
+  </item>
+  <item nodeId="node-0x2326620">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">The Farm Path
+A wooden gate to the south leads to a field of barley. 
+
+You see a small black cat sheltering under some nearby foliage.
+
+You can see page one of a letter here.
+
+You hear the harsh &quot;caw&quot; of a crow.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x2326780"/>
+      <child nodeId="node-0x23268e0"/>
+      <child nodeId="node-0x2326ba0"/>
+      <child nodeId="node-0x344f5a0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x2326780">
+    <command xml:space="preserve">x letter</command>
+    <result xml:space="preserve">letter 1.
+
+You hear the harsh &quot;caw&quot; of a crow.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x23268e0">
+    <command xml:space="preserve">get letter</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x2326a40"/>
+      <child nodeId="node-0x23f1a10"/>
+    </children>
+  </item>
+  <item nodeId="node-0x2326a40">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  page one of a letter
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x2796450"/>
+    </children>
+  </item>
+  <item nodeId="node-0x2796450">
+    <command xml:space="preserve">read letter</command>
+    <result xml:space="preserve">General Hospital, Antwerp, 24th June 1815. After a long silence, I embrace the opportunity of informing you respecting my present situation. On the 15th, about 12 o&apos;clock at night, we turned out and at two in the morning marched from the city of Brussels, to meet the enemy, who were advancing in great force on that city. About three o&apos;clock in the afternoon of the 16th, we came up with them. Our whole force did not exceed 12,000 men, who were fatigued with a long march of upwards of 20 miles, encumbered with knapsacks and other luggage. The day was uncommonly warm, and no water to be had on the road; however, we were brought up, in order of battle. The French being strongly posted in a thick wood, to the number of 40,000 men, including cavalry and lancers, gave us very little time to look around us ere the fight commenced on both sides, in an awful and destructive manner, they having every advantage of us, both as to position and numbers, particularly in cavalry, as the British dragoons had not yet come up.
+
+You hear the harsh &quot;caw&quot; of a crow.
+
+The cat meows.
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x23f1a10">
+    <command xml:space="preserve">x letter</command>
+    <result xml:space="preserve">General Hospital, Antwerp, 24th June 1815. After a long silence, I embrace the opportunity of informing you respecting my present situation. On the 15th, about 12 o&apos;clock at night, we turned out and at two in the morning marched from the city of Brussels, to meet the enemy, who were advancing in great force on that city. About three o&apos;clock in the afternoon of the 16th, we came up with them. Our whole force did not exceed 12,000 men, who were fatigued with a long march of upwards of 20 miles, encumbered with knapsacks and other luggage. The day was uncommonly warm, and no water to be had on the road; however, we were brought up, in order of battle. The French being strongly posted in a thick wood, to the number of 40,000 men, including cavalry and lancers, gave us very little time to look around us ere the fight commenced on both sides, in an awful and destructive manner, they having every advantage of us, both as to position and numbers, particularly in cavalry, as the British dragoons had not yet come up.
+
+The cat begins scratching in the undergrowth.
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x2326ba0">
+    <command xml:space="preserve">read letter</command>
+    <result xml:space="preserve">letter 1.
+
+The cat meows.
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x344f5a0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">(first opening the wooden gate)
+
+The Barley Field
+As you enter the barley field, your mind drifts to the fields of battle in the aftermath of Waterloo. The casualties were horrendous, the victory far from glorious. Many of the soldiers who died that day, the &quot;scum of the earth&quot; as Wellington had described them, had been recruited from villages and hamlets nearby. Wellington had later claimed  that it was &quot;really wonderful that we should have made these men into the fine fellows they are.&quot; You consider the barrenness of that statement  now that tens of thousands of those fine fellows are dead. Many of those who survived were not the same as they were before the war, having succumbed to war exhaustion or madness, or worse.
+
+The chill wind is making it hard to breathe, and you begin to feel light headed. Further south through the fields you can see the old farm cottage. 
+
+An old rotting wooden post is here. Propped up against the post, standing to attention, is a lone scarecrow.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x344f180"/>
+    </children>
+  </item>
+  <item nodeId="node-0x344f180">
+    <command xml:space="preserve">x coat</command>
+    <result xml:space="preserve">A tattered red coat.
+
+As you run your fingers along the hem of one of the sleeves, a folded piece of paper falls from one of the inside pockets. It appears to be a letter.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x344f2e0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x344f2e0">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">The Barley Field
+You are standing in a field of barley. To the north is a wooden gate leading to a farm path. A cottage lies to the south.
+
+An old rotting wooden post is here. Propped up against the post, standing to attention, is a lone scarecrow.
+
+You can also see page two of a letter here.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x344f700"/>
+    </children>
+  </item>
+  <item nodeId="node-0x344f700">
+    <command xml:space="preserve">get all</command>
+    <result xml:space="preserve">page two of a letter: Taken.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x344f860"/>
+    </children>
+  </item>
+  <item nodeId="node-0x344f860">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+The Farm Path
+A wooden gate to the south leads to a field of barley. 
+
+You see a small black cat sheltering under some nearby foliage.
+
+You can see page one of a letter here.
+
+You feel a cool breeze.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x344f9c0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x344f9c0">
+    <command xml:space="preserve">get all</command>
+    <result xml:space="preserve">page one of a letter: Taken.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x344fb20"/>
+    </children>
+  </item>
+  <item nodeId="node-0x344fb20">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  page one of a letter
+  page two of a letter
+
+You hear the harsh &quot;caw&quot; of a crow.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x344fc80"/>
+    </children>
+  </item>
+  <item nodeId="node-0x344fc80">
+    <command xml:space="preserve">x letter</command>
+    <result xml:space="preserve">Which do you mean, page one of a letter or page two of a letter?
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x344fde0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x344fde0">
+    <command xml:space="preserve">page one</command>
+    <result xml:space="preserve">You start the letter:
+
+   
+General Hospital, Antwerp, 24th June 1815. After a long silence, I embrace the opportunity of informing you respecting my present situation. On the 15th, about 12 o&apos;clock at night, we turned out and at two in the morning marched from the city of Brussels, to meet the enemy, who were advancing in great force on that city. About three o&apos;clock in the afternoon of the 16th, we came up with them. Our whole force did not exceed 12,000 men, who were fatigued with a long march of upwards of 20 miles, encumbered with knapsacks and other luggage. The day was uncommonly warm, and no water to be had on the road; however, we were brought up, in order of battle. The French being strongly posted in a thick wood, to the number of 40,000 men, including cavalry and lancers, gave us very little time to look around us ere the fight commenced on both sides, in an awful and destructive manner, they having every advantage of us, both as to position and numbers, particularly in cavalry, as the British dragoons had not yet come up.
+
+A scrawl at the bottom of the letter indicates that this is part 1 of 4.
+
+You feel a cool breeze.
+
+The cat begins scratching in the undergrowth.
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x34b2040"/>
+    </children>
+  </item>
+  <item nodeId="node-0x34b2040">
+    <command xml:space="preserve">x page two</command>
+    <result xml:space="preserve">You start the letter:
+
+   
+The French cavalry charged the British line of infantry three different times, and did much execution, until we were obliged to form squares of battalions, in order to turn them, which was executed in a most gallant manner, and many hundreds of them never returned. Still, they sent up French forces and as often we beat them them back. The battle lasted until it was quite dark, when the enemy began to give way, our poor fellows who were left alive following them as long as they could see, when night put an end to the fatigues of a well fought day. Thousands on both sides lay killed and wounded on the field of battle; and, as the greater part of the action lay in corn fields along a vast track of country, many hundreds must have died for want of assistance through the night, who were not able of themselves to crawl away.
+
+A scrawl at the bottom of the letter indicates that this is part 4 of 4.
+
+The cat meows.
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x2326d00">
+    <command xml:space="preserve">get letter</command>
+    <result xml:space="preserve">Taken.
+
+The cat meows.
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x2326e60"/>
+      <child nodeId="node-0x23f1e30"/>
+      <child nodeId="node-0x2796710"/>
+    </children>
+  </item>
+  <item nodeId="node-0x2326e60">
+    <command xml:space="preserve">read letter</command>
+    <result xml:space="preserve">letter 1.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x2349090"/>
+    </children>
+  </item>
+  <item nodeId="node-0x2349090">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  a first letter
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x23f1e30">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  An old letter (part 1)
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x23f1cd0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x23f1cd0">
+    <command xml:space="preserve">x letter</command>
+    <result xml:space="preserve">General Hospital, Antwerp, 24th June 1815. After a long silence, I embrace the opportunity of informing you respecting my present situation. On the 15th, about 12 o&apos;clock at night, we turned out and at two in the morning marched from the city of Brussels, to meet the enemy, who were advancing in great force on that city. About three o&apos;clock in the afternoon of the 16th, we came up with them. Our whole force did not exceed 12,000 men, who were fatigued with a long march of upwards of 20 miles, encumbered with knapsacks and other luggage. The day was uncommonly warm, and no water to be had on the road; however, we were brought up, in order of battle. The French being strongly posted in a thick wood, to the number of 40,000 men, including cavalry and lancers, gave us very little time to look around us ere the fight commenced on both sides, in an awful and destructive manner, they having every advantage of us, both as to position and numbers, particularly in cavalry, as the British dragoons had not yet come up.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x23f1b70"/>
+    </children>
+  </item>
+  <item nodeId="node-0x23f1b70">
+    <command xml:space="preserve">x cat</command>
+    <result xml:space="preserve">The cat stares at you with wide yellow eyes which convey both curiosity and caution in equal measures.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x2796710">
+    <command xml:space="preserve">x letter</command>
+    <result xml:space="preserve">You start reading the page one of a letter
+General Hospital, Antwerp, 24th June 1815. After a long silence, I embrace the opportunity of informing you respecting my present situation. On the 15th, about 12 o&apos;clock at night, we turned out and at two in the morning marched from the city of Brussels, to meet the enemy, who were advancing in great force on that city. About three o&apos;clock in the afternoon of the 16th, we came up with them. Our whole force did not exceed 12,000 men, who were fatigued with a long march of upwards of 20 miles, encumbered with knapsacks and other luggage. The day was uncommonly warm, and no water to be had on the road; however, we were brought up, in order of battle. The French being strongly posted in a thick wood, to the number of 40,000 men, including cavalry and lancers, gave us very little time to look around us ere the fight commenced on both sides, in an awful and destructive manner, they having every advantage of us, both as to position and numbers, particularly in cavalry, as the British dragoons had not yet come up.
+
+You hear the harsh &quot;caw&quot; of a crow.
+
+The cat begins scratching in the undergrowth.
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x2796b30">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">(first opening the wooden gate)
+
+The Barley Field
+As you enter the barley field, your mind drifts to the fields of battle in the aftermath of Waterloo. The casualties were horrendous, the victory far from glorious. Many of the soldiers who died that day, the &quot;scum of the earth&quot; as Wellington had described them, had been recruited from villages and hamlets nearby. Wellington had later claimed  that it was &quot;really wonderful that we should have made these men into the fine fellows they are.&quot; You consider the barrenness of that statement  now that tens of thousands of those fine fellows are dead. Many of those who survived were not the same as they were before the war, having succumbed to war exhaustion or madness, or worse.
+
+The chill wind is making it hard to breathe, and you begin to feel light headed. Further south through the fields you can see the old farm cottage. 
+
+An old rotting wooden post is here. Propped up against the post, standing to attention, is a lone scarecrow.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x27969d0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x27969d0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+The Farm Path
+A wooden gate to the south leads to a field of barley. 
+
+You see a small black cat sheltering under some nearby foliage.
+
+You can see page one of a letter here.
+
+The cat begins scratching in the undergrowth.
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x2796870"/>
+    </children>
+  </item>
+  <item nodeId="node-0x2796870">
+    <command xml:space="preserve">get page one</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x3321160">
+    <command xml:space="preserve">get page one</command>
+    <result xml:space="preserve">Taken.
+
+The cat meows.
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x3321580">
+    <command xml:space="preserve">get page one of letter</command>
+    <result xml:space="preserve">I only understood you as far as wanting to get page one of a letter.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x3321420"/>
+    </children>
+  </item>
+  <item nodeId="node-0x3321420">
+    <command xml:space="preserve">l,</command>
+    <result xml:space="preserve">The Farm Path
+A wooden gate to the south leads to a field of barley. 
+
+You see a small black cat sheltering under some nearby foliage.
+
+You can see page one of a letter here.
+
+You hear the harsh &quot;caw&quot; of a crow.
+
+The cat begins scratching in the undergrowth.
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x33212c0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x33212c0">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">The Farm Path
+A wooden gate to the south leads to a field of barley. 
+
+You see a small black cat sheltering under some nearby foliage.
+
+You can see page one of a letter here.
+
+You feel a cool breeze.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x33216e0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x33216e0">
+    <command xml:space="preserve">get letter</command>
+    <result xml:space="preserve">Taken.
+
+The cat meows.
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x344f020">
+    <command xml:space="preserve">x letter</command>
+    <result xml:space="preserve">You start reading page one of a letter
+
+General Hospital, Antwerp, 24th June 1815. After a long silence, I embrace the opportunity of informing you respecting my present situation. On the 15th, about 12 o&apos;clock at night, we turned out and at two in the morning marched from the city of Brussels, to meet the enemy, who were advancing in great force on that city. About three o&apos;clock in the afternoon of the 16th, we came up with them. Our whole force did not exceed 12,000 men, who were fatigued with a long march of upwards of 20 miles, encumbered with knapsacks and other luggage. The day was uncommonly warm, and no water to be had on the road; however, we were brought up, in order of battle. The French being strongly posted in a thick wood, to the number of 40,000 men, including cavalry and lancers, gave us very little time to look around us ere the fight commenced on both sides, in an awful and destructive manner, they having every advantage of us, both as to position and numbers, particularly in cavalry, as the British dragoons had not yet come up.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x23491f0">
+    <command xml:space="preserve">x cart</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x2349350"/>
+    </children>
+  </item>
+  <item nodeId="node-0x2349350">
+    <command xml:space="preserve">x cat</command>
+    <result xml:space="preserve">The cat stares at you with wide yellow eyes which convey both curiosity and caution in equal measures.
+
+letter baby 1
+The cat meows.
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x23494b0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x23494b0">
+    <command xml:space="preserve">x cat</command>
+    <result xml:space="preserve">The cat stares at you with wide yellow eyes which convey both curiosity and caution in equal measures.
+
+You hear the harsh &quot;caw&quot; of a crow.
+
+The cat begins scratching in the undergrowth.
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x2349610">
+    <command xml:space="preserve">x catr</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x2349770"/>
+    </children>
+  </item>
+  <item nodeId="node-0x2349770">
+    <command xml:space="preserve">x cat</command>
+    <result xml:space="preserve">The cat stares at you with wide yellow eyes which convey both curiosity and caution in equal measures.
+
+As you watch the cat, you suddenly become aware of a letter on the ground next to him, previously obscured.
+
+The cat meows.
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x23498d0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x23498d0">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">The Farm Path
+A wooden gate to the south leads to a field of barley. 
+
+You see a small black cat sheltering under some nearby foliage.
+
+You can see The first letter here.
+
+The cat begins scratching in the undergrowth.
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x27965b0">
+    <command xml:space="preserve">x ca</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x2796190"/>
+    </children>
+  </item>
+  <item nodeId="node-0x2796190">
+    <command xml:space="preserve">x cat</command>
+    <result xml:space="preserve">The cat stares at you with wide yellow eyes which convey both curiosity and caution in equal measures.
+
+As you watch the cat, you suddenly become aware of a letter on the ground next to him, previously obscured.
+
+The cat meows.
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x27962f0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x27962f0">
+    <command xml:space="preserve">x letter</command>
+    <result xml:space="preserve">foo
+You hear the harsh &quot;caw&quot; of a crow.
+
+The cat begins scratching in the undergrowth.
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x3321840">
+    <command xml:space="preserve">x at</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x33219a0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x33219a0">
+    <command xml:space="preserve">x cat</command>
+    <result xml:space="preserve">The cat stares at you with wide yellow eyes which convey both curiosity and caution in equal measures.
+
+As you watch the cat, you suddenly become aware of a letter on the ground next to him, previously obscured.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x3321b00"/>
+    </children>
+  </item>
+  <item nodeId="node-0x3321b00">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">The Farm Path
+A wooden gate to the south leads to a field of barley. 
+
+You see a small black cat sheltering under some nearby foliage.
+
+You can see page one of a letter here.
+
+The cat meows.
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x3321c60"/>
+    </children>
+  </item>
+  <item nodeId="node-0x3321c60">
+    <command xml:space="preserve">get letter</command>
+    <result xml:space="preserve">Taken.
+
+You hear the harsh &quot;caw&quot; of a crow.
+
+The cat begins scratching in the undergrowth.
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x3321dc0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x3321dc0">
+    <command xml:space="preserve">read letter</command>
+    <result xml:space="preserve">You start reading page one of a letter
+
+General Hospital, Antwerp, 24th June 1815. After a long silence, I embrace the opportunity of informing you respecting my present situation. On the 15th, about 12 o&apos;clock at night, we turned out and at two in the morning marched from the city of Brussels, to meet the enemy, who were advancing in great force on that city. About three o&apos;clock in the afternoon of the 16th, we came up with them. Our whole force did not exceed 12,000 men, who were fatigued with a long march of upwards of 20 miles, encumbered with knapsacks and other luggage. The day was uncommonly warm, and no water to be had on the road; however, we were brought up, in order of battle. The French being strongly posted in a thick wood, to the number of 40,000 men, including cavalry and lancers, gave us very little time to look around us ere the fight commenced on both sides, in an awful and destructive manner, they having every advantage of us, both as to position and numbers, particularly in cavalry, as the British dragoons had not yet come up.
+
+You feel a cool breeze.
+
+The cat meows.
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x3632d00">
+    <command xml:space="preserve">z</command>
+    <result xml:space="preserve">Time passes.
+
+The cat tilts his head to one side.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x3632e60"/>
+    </children>
+  </item>
+  <item nodeId="node-0x3632e60">
+    <command xml:space="preserve">z</command>
+    <result xml:space="preserve">Time passes.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x36b8010"/>
+    </children>
+  </item>
+  <item nodeId="node-0x36b8010">
+    <command xml:space="preserve">z</command>
+    <result xml:space="preserve">Time passes.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x36b8170"/>
+    </children>
+  </item>
+  <item nodeId="node-0x36b8170">
+    <command xml:space="preserve">z</command>
+    <result xml:space="preserve">Time passes.
+
+The cat blinks slowly.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x36b82d0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x36b82d0">
+    <command xml:space="preserve">z</command>
+    <result xml:space="preserve">Time passes.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x36b8430"/>
+    </children>
+  </item>
+  <item nodeId="node-0x36b8430">
+    <command xml:space="preserve">z</command>
+    <result xml:space="preserve">Time passes.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x36b8590"/>
+    </children>
+  </item>
+  <item nodeId="node-0x36b8590">
+    <command xml:space="preserve">z</command>
+    <result xml:space="preserve">Time passes.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x36b86f0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x36b86f0">
+    <command xml:space="preserve">z</command>
+    <result xml:space="preserve">Time passes.
+
+The cat tilts his head to one side.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x36b8850"/>
+    </children>
+  </item>
+  <item nodeId="node-0x36b8850">
+    <command xml:space="preserve">x cat</command>
+    <result xml:space="preserve">The cat stares at you with wide yellow eyes which convey both curiosity and caution in equal measures.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x36b89b0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x36b89b0">
+    <command xml:space="preserve">stroke cat</command>
+    <result xml:space="preserve">As you approach the cat, it flees into the undergrowth.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x36b8b10"/>
+    </children>
+  </item>
+  <item nodeId="node-0x36b8b10">
+    <command xml:space="preserve">x cat</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x36b8c70"/>
+    </children>
+  </item>
+  <item nodeId="node-0x36b8c70">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">(first opening the wooden gate)
+
+The Barley Field
+As you enter the barley field, your mind drifts to the fields of battle in the aftermath of Waterloo. The casualties were horrendous, the victory far from glorious. Many of the soldiers who died that day, the &quot;scum of the earth&quot; as Wellington had described them, had been recruited from villages and hamlets nearby. Wellington had later claimed  that it was &quot;really wonderful that we should have made these men into the fine fellows they are.&quot; You consider the barrenness of that statement  now that tens of thousands of those fine fellows are dead. Many of those who survived were not the same as they were before the war, having succumbed to war exhaustion or madness, or worse.
+
+The chill wind is making it hard to breathe, and you begin to feel light headed. Further south through the fields you can see the old farm cottage. 
+
+An old rotting wooden post is here. Propped up against the post, standing to attention, is a lone scarecrow.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x36b8dd0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x36b8dd0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Front Of The Cottage
+You approach the front of a large two storey cottage that is very familiar to you. A field of barley lies to the North. A path leads around the side of the cottage to the southwest. The cottage itself is directly south, the entrance blocked by a heavy oak door.  
+
+The small black cat from the farm path is here, washing himself among the barley.
+
+The cat blinks slowly.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x378d0a0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x378d0a0">
+    <command xml:space="preserve">x cat</command>
+    <result xml:space="preserve">A small black cat with wide, yellow eyes. The cat is wearing a silver collar.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x378d200"/>
+    </children>
+  </item>
+  <item nodeId="node-0x378d200">
+    <command xml:space="preserve">x collar</command>
+    <result xml:space="preserve">The cat edges away warily before you can get close enough.
+
+The cat tilts his head to one side.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x378d360"/>
+    </children>
+  </item>
+  <item nodeId="node-0x378d360">
+    <command xml:space="preserve">stroke cat</command>
+    <result xml:space="preserve">The cat seems more comfortable around you now.
+
+The cat heads north to the barley field.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x378d4c0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x378d4c0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+The Barley Field
+You are standing in a field of barley. To the north is a wooden gate leading to a farm path. A cottage lies to the south.
+
+An old rotting wooden post is here. Propped up against the post, standing to attention, is a lone scarecrow.
+
+You can also see the cat here.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x378d620"/>
+    </children>
+  </item>
+  <item nodeId="node-0x378d620">
+    <command xml:space="preserve">x collar</command>
+    <result xml:space="preserve">The cats name is Wellington.
+
+You hear the harsh &quot;caw&quot; of a crow.
+
+Wellington meows.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x378d780"/>
+    </children>
+  </item>
+  <item nodeId="node-0x378d780">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+The Farm Path
+A wooden gate to the south leads to a field of barley. 
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x378d8e0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x378d8e0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+The Barley Field
+You are standing in a field of barley. To the north is a wooden gate leading to a farm path. A cottage lies to the south.
+
+An old rotting wooden post is here. Propped up against the post, standing to attention, is a lone scarecrow.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x378da40"/>
+    </children>
+  </item>
+  <item nodeId="node-0x378da40">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Front Of The Cottage
+You stand in front of a large two storey cottage . A field of barley lies to the North. A path leads around the side of the cottage to the southwest. The cottage itself is directly south, the entrance blocked by a heavy oak door.  
+
+Wellington arrives from the southeast.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x378dba0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x378dba0">
+    <command xml:space="preserve">x wellington</command>
+    <result xml:space="preserve">A small black cat with wide, yellow eyes. The cat is wearing a silver collar.
+
+Wellington heads southeast to back of the cottage.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x378dd00"/>
+    </children>
+  </item>
+  <item nodeId="node-0x378dd00">
+    <command xml:space="preserve">se</command>
+    <result xml:space="preserve">You follow garden path to the back of the cottage.
+
+Back of the Cottage
+You arrive in an ample-sized clearing of trampled barley which serves as a yard for the cottage. The fields continue off into the distance in all directions.  
+
+On the perimeter of the clearing is an old, broken turnwrest plough.
+
+You can see Wellington here.
+
+Wellington heads northwest to front of the cottage.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x378de60"/>
+    </children>
+  </item>
+  <item nodeId="node-0x378de60">
+    <command xml:space="preserve">x plough</command>
+    <result xml:space="preserve">In addition to the rust and general disrepair of the plough, the cumbersome plough also appears to have been damaged - the blades and handles are bent at awkward angles rendering the plough useless.
+
+Hanging from the plough, you see a rusty key.
+
+Wellington arrives from the northwest.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x37ab080"/>
+    </children>
+  </item>
+  <item nodeId="node-0x37ab080">
+    <command xml:space="preserve">get key</command>
+    <result xml:space="preserve">As you pick up the key, your heart jolts - you hear four loud bangs coming from the front of the cottage, like metal knocking on wood. The sound echoes around the hills and then all is silent again.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x37ab1e0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x37ab1e0">
+    <command xml:space="preserve">ne</command>
+    <result xml:space="preserve">You follow the garden path around to the front of the cottage.
+
+As you make your way around the front of the cottage, you survey the area to see if you can identify the cause of the banging. Just as you are about to resign to having imagined the sound, you observe to your horror that the field to the north is now empty. The scarecrow has left his post! You can vaguely make out that something has been nailed to the post in place of the scarecrow, flapping gently in the breeze.
+
+Please press SPACE to continue.
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x2349a30">
     <command xml:space="preserve"></command>
     <result xml:space="preserve"></result>
     <commentary xml:space="preserve"></commentary>
@@ -1388,10 +2993,11 @@ Please press SPACE to continue.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7f9b4012db40"/>
+      <child nodeId="node-0x2349b90"/>
+      <child nodeId="node-0x2391b70"/>
     </children>
   </item>
-  <item nodeId="node-0x7f9b4012db40">
+  <item nodeId="node-0x2349b90">
     <command xml:space="preserve"></command>
     <result xml:space="preserve"></result>
     <commentary xml:space="preserve"></commentary>
@@ -1400,10 +3006,12 @@ Please press SPACE to continue.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7f9b4012dca0"/>
+      <child nodeId="node-0x2349cf0"/>
+      <child nodeId="node-0x236b8a0"/>
+      <child nodeId="node-0x2391750"/>
     </children>
   </item>
-  <item nodeId="node-0x7f9b4012dca0">
+  <item nodeId="node-0x2349cf0">
     <command xml:space="preserve"></command>
     <result xml:space="preserve"></result>
     <commentary xml:space="preserve"></commentary>
@@ -1412,10 +3020,23 @@ Please press SPACE to continue.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7f9b4012de00"/>
+      <child nodeId="node-0x2349e50"/>
+      <child nodeId="node-0x236b480"/>
     </children>
   </item>
-  <item nodeId="node-0x7f9b4012de00">
+  <item nodeId="node-0x2349e50">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve"></result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x236b060"/>
+    </children>
+  </item>
+  <item nodeId="node-0x236b060">
     <command xml:space="preserve"> </command>
     <result xml:space="preserve">In the winter of 1815, after countless millions had perished, the Napoleonic Wars came to an end. The little corporal Napoleon Bonaparte, emperor of France for the decade previous, was exiled to the volcanic island of St Helena where he would see out the last six years of his life.
 
@@ -1434,10 +3055,10 @@ Please press SPACE to continue.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x17bd070"/>
+      <child nodeId="node-0x236b1c0"/>
     </children>
   </item>
-  <item nodeId="node-0x17bd070">
+  <item nodeId="node-0x236b1c0">
     <command xml:space="preserve"> </command>
     <result xml:space="preserve">
 The Scarecrow
@@ -1460,10 +3081,10 @@ You see a small black cat sheltering under some nearby foliage.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x17bd1d0"/>
+      <child nodeId="node-0x236b320"/>
     </children>
   </item>
-  <item nodeId="node-0x17bd1d0">
+  <item nodeId="node-0x236b320">
     <command xml:space="preserve">knock on gate</command>
     <result xml:space="preserve">The cat meows.
 &gt;</result>
@@ -1473,12 +3094,34 @@ You see a small black cat sheltering under some nearby foliage.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x7f9b4011ae00">
+  <item nodeId="node-0x236b480">
+    <command xml:space="preserve"> </command>
+    <result xml:space="preserve">In the winter of 1815, after countless millions had perished, the Napoleonic Wars came to an end. The little corporal Napoleon Bonaparte, emperor of France for the decade previous, was exiled to the volcanic island of St Helena where he would see out the last six years of his life.
+
+The end of the Napoleonic wars saw the start of a great agricultural depression in the United Kingdom that would last for a quarter of a century. Many farms succumbed to abandonment and disrepair as both landlords and tenants fell into bankruptcy.
+
+It is in the wake of this ruin, far from the bloody fields of Waterloo and Rocquencourt, that you find yourself standing on a long farm road in Suffolk, surrounded by fields of oat, barley and wheat. A dull lifelessness hangs in the air like the fog of war. All is silent, save for the cries of carrion crow circling above. You feel your heart longing for the rural paradise now lost to time and neglect.
+
+Five hundred miles away, a young author called Mary Shelley has finished writing her first novel, &quot;The Modern Prometheus&quot;...
+
+
+Please press SPACE to continue.
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x236b5e0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x236b5e0">
     <command xml:space="preserve"> </command>
     <result xml:space="preserve">
 The Scarecrow
 An exploration of war and belonging by Mikey Hogarth The story genre is &quot;Horror&quot;
-Release 1 / Serial number 130922 / Inform 7 build 6G60 (I6/v6.32 lib 6/12N) SD
+Release 1 / Serial number 130926 / Inform 7 build 6G60 (I6/v6.32 lib 6/12N) SD
 
 The Farm Path
 You are standing on a muddy farm path. A wooden gate to the south leads into a large barley field which forms part of a patchwork vista of yellow and brown draped over the distant landscape. The fields are separated by deep green foliage. 
@@ -1496,10 +3139,313 @@ You see a small black cat sheltering under some nearby foliage.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7f9b4011a9e0"/>
+      <child nodeId="node-0x236b740"/>
     </children>
   </item>
-  <item nodeId="node-0x7f9b4011a9e0">
+  <item nodeId="node-0x236b740">
+    <command xml:space="preserve">x cat</command>
+    <result xml:space="preserve">The cat stares at you with wide yellow eyes which convey both curiosity and caution in equal measures.
+
+As you watch the cat, you suddenly become aware of a letter on the ground next to him, previously obscured.
+
+The cat meows.
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x344f440"/>
+    </children>
+  </item>
+  <item nodeId="node-0x344f440">
+    <command xml:space="preserve">x letter</command>
+    <result xml:space="preserve">You start the letter:
+
+General Hospital, Antwerp, 24th June 1815. After a long silence, I embrace the opportunity of informing you respecting my present situation. On the 15th, about 12 o&apos;clock at night, we turned out and at two in the morning marched from the city of Brussels, to meet the enemy, who were advancing in great force on that city. About three o&apos;clock in the afternoon of the 16th, we came up with them. Our whole force did not exceed 12,000 men, who were fatigued with a long march of upwards of 20 miles, encumbered with knapsacks and other luggage. The day was uncommonly warm, and no water to be had on the road; however, we were brought up, in order of battle. The French being strongly posted in a thick wood, to the number of 40,000 men, including cavalry and lancers, gave us very little time to look around us ere the fight commenced on both sides, in an awful and destructive manner, they having every advantage of us, both as to position and numbers, particularly in cavalry, as the British dragoons had not yet come up.
+
+A scrawl at the bottom of the letter indicates that this is part 1 of 4.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x236b8a0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve"></result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x236ba00"/>
+    </children>
+  </item>
+  <item nodeId="node-0x236ba00">
+    <command xml:space="preserve"> </command>
+    <result xml:space="preserve">In the winter of 1815, after countless millions had perished, the Napoleonic Wars came to an end. The little corporal Napoleon Bonaparte, emperor of France for the decade previous, was exiled to the volcanic island of St Helena where he would see out the last six years of his life.
+
+The end of the Napoleonic wars saw the start of a great agricultural depression in the United Kingdom that would last for a quarter of a century. Many farms succumbed to abandonment and disrepair as both landlords and tenants fell into bankruptcy.
+
+It is in the wake of this ruin, far from the bloody fields of Waterloo and Rocquencourt, that you find yourself standing on a long farm road in Suffolk, surrounded by fields of oat, barley and wheat. A dull lifelessness hangs in the air like the fog of war. All is silent, save for the cries of carrion crow circling above. You feel your heart longing for the rural paradise now lost to time and neglect.
+
+Five hundred miles away, a young author called Mary Shelley has finished writing her first novel, &quot;The Modern Prometheus&quot;...
+
+
+Please press SPACE to continue.
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x236bb60"/>
+    </children>
+  </item>
+  <item nodeId="node-0x236bb60">
+    <command xml:space="preserve"> </command>
+    <result xml:space="preserve">
+The Scarecrow
+An exploration of war and belonging by Mikey Hogarth The story genre is &quot;Horror&quot;
+Release 1 / Serial number 130925 / Inform 7 build 6G60 (I6/v6.32 lib 6/12N) SD
+
+The Farm Path
+You are standing on a muddy farm path. A wooden gate to the south leads into a large barley field which forms part of a patchwork vista of yellow and brown draped over the distant landscape. The fields are separated by deep green foliage. 
+
+Your journey here has been long and tiring. Beyond the field to the south you can see a thatched-roof cottage, a place you had once felt a connection with. A place you had once called home. In spite of your aching feet, the cottage no longer feels like an inviting respite. 
+
+The weather is overcast and a gentle rain is falling, casting a damp film across the landscape.  
+
+You see a small black cat sheltering under some nearby foliage.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x236bcc0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x236bcc0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">(first opening the wooden gate)
+
+The Barley Field
+As you enter the barley field, your mind drifts to the fields of battle in the aftermath of Waterloo. The casualties were horrendous, the victory far from glorious. Many of the soldiers who died that day, the &quot;scum of the earth&quot; as Wellington had described them, had been recruited from villages and hamlets nearby. Wellington had later claimed  that it was &quot;really wonderful that we should have made these men into the fine fellows they are.&quot; You consider the barrenness of that statement  now that tens of thousands of those fine fellows are dead. Many of those who survived were not the same as they were before the war, having succumbed to war exhaustion or madness, or worse.
+
+The chill wind is making it hard to breathe, and you begin to feel light headed. Further south through the fields you can see the old farm cottage. 
+
+An old rotting wooden post is here. Propped up against the post, standing to attention, is a lone scarecrow.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x236be20"/>
+    </children>
+  </item>
+  <item nodeId="node-0x236be20">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Front Of The Cottage
+You approach the front of a large two storey cottage that is very familiar to you. A field of barley lies to the North. A path leads around the side of the cottage to the southwest. The cottage itself is directly south, the entrance blocked by a heavy oak door.   
+
+You hear the harsh &quot;caw&quot; of a crow.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x2391070"/>
+    </children>
+  </item>
+  <item nodeId="node-0x2391070">
+    <command xml:space="preserve">se</command>
+    <result xml:space="preserve">You follow garden path to the back of the cottage.
+
+Back of the Cottage
+You arrive in an ample-sized clearing of trampled barley which serves as a yard for the cottage. The fields continue off into the distance in all directions.  
+
+On the perimeter of the clearing is an old, broken turnwrest plough.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x23911d0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x23911d0">
+    <command xml:space="preserve">x plough</command>
+    <result xml:space="preserve">In addition to the rust and general disrepair of the plough, the cumbersome plough also appears to have been damaged - the blades and handles are bent at awkward angles rendering the plough useless.
+
+Hanging from the plough, you see a rusty key.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x2391330"/>
+    </children>
+  </item>
+  <item nodeId="node-0x2391330">
+    <command xml:space="preserve">get key</command>
+    <result xml:space="preserve">As you pick up the key, your heart jolts - you hear four loud bangs coming from the front of the cottage, like metal knocking on wood. The sound echoes around the hills and then all is silent again.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x2391490"/>
+    </children>
+  </item>
+  <item nodeId="node-0x2391490">
+    <command xml:space="preserve">ne</command>
+    <result xml:space="preserve">You follow the garden path around to the front of the cottage.
+
+OMG NO SCARECROW!
+
+
+Please press SPACE to continue.
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x23915f0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x23915f0">
+    <command xml:space="preserve"> </command>
+    <result xml:space="preserve">
+Front Of The Cottage
+You stand in front of a large two storey cottage . A field of barley lies to the North. A path leads around the side of the cottage to the southwest. The cottage itself is directly south, the entrance blocked by a heavy oak door. 
+
+In the field to the north you can see something nailed to a post.   
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x2391750">
+    <command xml:space="preserve"> </command>
+    <result xml:space="preserve">In the winter of 1815, after countless millions had perished, the Napoleonic Wars came to an end. The little corporal Napoleon Bonaparte, emperor of France for the decade previous, was exiled to the volcanic island of St Helena where he would see out the last six years of his life.
+
+The end of the Napoleonic wars saw the start of a great agricultural depression in the United Kingdom that would last for a quarter of a century. Many farms succumbed to abandonment and disrepair as both landlords and tenants fell into bankruptcy.
+
+It is in the wake of this ruin, far from the bloody fields of Waterloo and Rocquencourt, that you find yourself standing on a long farm road in Suffolk, surrounded by fields of oat, barley and wheat. A dull lifelessness hangs in the air like the fog of war. All is silent, save for the cries of carrion crow circling above. You feel your heart longing for the rural paradise now lost to time and neglect.
+
+Five hundred miles away, a young author called Mary Shelley has finished writing her first novel, &quot;The Modern Prometheus&quot;...
+
+
+Please press SPACE to continue.
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x23918b0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x23918b0">
+    <command xml:space="preserve"> </command>
+    <result xml:space="preserve">
+The Scarecrow
+An exploration of war and belonging by Mikey Hogarth The story genre is &quot;Horror&quot;
+Release 1 / Serial number 130925 / Inform 7 build 6G60 (I6/v6.32 lib 6/12N) SD
+
+The Farm Path
+You are standing on a muddy farm path. A wooden gate to the south leads into a large barley field which forms part of a patchwork vista of yellow and brown draped over the distant landscape. The fields are separated by deep green foliage. 
+
+Your journey here has been long and tiring. Beyond the field to the south you can see a thatched-roof cottage, a place you had once felt a connection with. A place you had once called home. In spite of your aching feet, the cottage no longer feels like an inviting respite. 
+
+The weather is overcast and a gentle rain is falling, casting a damp film across the landscape.  
+
+You see a small black cat sheltering under some nearby foliage.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x2391a10"/>
+    </children>
+  </item>
+  <item nodeId="node-0x2391a10">
+    <command xml:space="preserve">x cat</command>
+    <result xml:space="preserve">The cat stares at you with wide yellow eyes which convey both curiosity and caution in equal measures.
+
+As you watch the cat, you suddenly become aware of a letter on the ground next to him, previously obscured.
+
+You hear the harsh &quot;caw&quot; of a crow.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x2391b70">
+    <command xml:space="preserve"> </command>
+    <result xml:space="preserve">
+The Scarecrow
+An exploration of war and belonging by Mikey Hogarth The story genre is &quot;Horror&quot;
+Release 1 / Serial number 130926 / Inform 7 build 6G60 (I6/v6.32 lib 6/12N) SD
+
+The Farm Path
+You are standing on a muddy farm path. A wooden gate to the south leads into a large barley field which forms part of a patchwork vista of yellow and brown draped over the distant landscape. The fields are separated by deep green foliage. 
+
+Your journey here has been long and tiring. Beyond the field to the south you can see a thatched-roof cottage, a place you had once felt a connection with. A place you had once called home. In spite of your aching feet, the cottage no longer feels like an inviting respite. 
+
+The weather is overcast and a gentle rain is falling, casting a damp film across the landscape.  
+
+You see a small black cat sheltering under some nearby foliage.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x2391cd0"/>
+      <child nodeId="node-0x2796c90"/>
+    </children>
+  </item>
+  <item nodeId="node-0x2391cd0">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">(first opening the wooden gate)
 
@@ -1517,10 +3463,10 @@ An old rotting wooden post is here. Propped up against the post, standing to att
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x1a80060"/>
+      <child nodeId="node-0x2391e30"/>
     </children>
   </item>
-  <item nodeId="node-0x1a80060">
+  <item nodeId="node-0x2391e30">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">The fields of corn seem to go on forever and there would be little point in entering them.
 Exits are The Farm Path is north. Front Of The Cottage is south. .
@@ -1532,7 +3478,52 @@ Exits are The Farm Path is north. Front Of The Cottage is south. .
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x1a801c0">
+  <item nodeId="node-0x2796c90">
+    <command xml:space="preserve">x cat</command>
+    <result xml:space="preserve">The cat stares at you with wide yellow eyes which convey both curiosity and caution in equal measures.
+
+As you watch the cat, you suddenly become aware of a letter on the ground next to him, previously obscured.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x2796df0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x2796df0">
+    <command xml:space="preserve">get page</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x3321000"/>
+    </children>
+  </item>
+  <item nodeId="node-0x3321000">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">The Farm Path
+A wooden gate to the south leads to a field of barley. 
+
+You see a small black cat sheltering under some nearby foliage.
+
+The cat meows.
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x23aa020">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve"></result>
     <commentary xml:space="preserve"></commentary>
@@ -1541,11 +3532,11 @@ Exits are The Farm Path is north. Front Of The Cottage is south. .
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x1a80320"/>
-      <child nodeId="node-0x1a80cc0"/>
+      <child nodeId="node-0x23aa180"/>
+      <child nodeId="node-0x23aa860"/>
     </children>
   </item>
-  <item nodeId="node-0x1a80320">
+  <item nodeId="node-0x23aa180">
     <command xml:space="preserve"> </command>
     <result xml:space="preserve">In the winter of 1815, after countless millions had perished, the Napoleonic Wars came to an end. The little corporal Napoleon Bonaparte, emperor of France for the decade previous, was exiled to the volcanic island of St Helena where he would see out the last six years of his life.
 
@@ -1564,10 +3555,10 @@ Please press SPACE to continue.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x1a80480"/>
+      <child nodeId="node-0x23aa2e0"/>
     </children>
   </item>
-  <item nodeId="node-0x1a80480">
+  <item nodeId="node-0x23aa2e0">
     <command xml:space="preserve"> </command>
     <result xml:space="preserve">
 The Scarecrow
@@ -1590,11 +3581,11 @@ You see a small black cat sheltering under some nearby foliage.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x1a805e0"/>
-      <child nodeId="node-0x7f9b404bb580"/>
+      <child nodeId="node-0x23aa440"/>
+      <child nodeId="node-0x23aa700"/>
     </children>
   </item>
-  <item nodeId="node-0x1a805e0">
+  <item nodeId="node-0x23aa440">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">(first opening the wooden gate)
 
@@ -1612,10 +3603,10 @@ An old rotting wooden post is here. Propped up against the post, standing to att
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x1a80740"/>
+      <child nodeId="node-0x23aa5a0"/>
     </children>
   </item>
-  <item nodeId="node-0x1a80740">
+  <item nodeId="node-0x23aa5a0">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">The fields of corn seem to go on forever and there would be little point in entering them.
 Exits are The Farm Path is north. Front Of The Cottage is south. .
@@ -1627,7 +3618,7 @@ Exits are The Farm Path is north. Front Of The Cottage is south. .
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x7f9b404bb580">
+  <item nodeId="node-0x23aa700">
     <command xml:space="preserve">enter corn</command>
     <result xml:space="preserve">The fields of corn seem to go on forever and there would be little point in entering them. The Barley Field is south. 
 You hear the harsh &quot;caw&quot; of a crow.
@@ -1640,7 +3631,7 @@ The cat meows.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x1a80cc0">
+  <item nodeId="node-0x23aa860">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve"></result>
     <commentary xml:space="preserve"></commentary>
@@ -1649,10 +3640,10 @@ The cat meows.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x1a808a0"/>
+      <child nodeId="node-0x23aa9c0"/>
     </children>
   </item>
-  <item nodeId="node-0x1a808a0">
+  <item nodeId="node-0x23aa9c0">
     <command xml:space="preserve"> </command>
     <result xml:space="preserve">In the winter of 1815, after countless millions had perished, the Napoleonic Wars came to an end. The little corporal Napoleon Bonaparte, emperor of France for the decade previous, was exiled to the volcanic island of St Helena where he would see out the last six years of his life.
 
@@ -1671,10 +3662,10 @@ Please press SPACE to continue.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x1a80e20"/>
+      <child nodeId="node-0x23aab20"/>
     </children>
   </item>
-  <item nodeId="node-0x1a80e20">
+  <item nodeId="node-0x23aab20">
     <command xml:space="preserve"> </command>
     <result xml:space="preserve">
 The Scarecrow
@@ -1697,10 +3688,10 @@ You see a small black cat sheltering under some nearby foliage.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x1ae2030"/>
+      <child nodeId="node-0x23aac80"/>
     </children>
   </item>
-  <item nodeId="node-0x1ae2030">
+  <item nodeId="node-0x23aac80">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">(first opening the wooden gate)
 
@@ -1718,10 +3709,10 @@ An old rotting wooden post is here. Propped up against the post, standing to att
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x1ae2190"/>
+      <child nodeId="node-0x23aade0"/>
     </children>
   </item>
-  <item nodeId="node-0x1ae2190">
+  <item nodeId="node-0x23aade0">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">The fields of corn seem to go on forever and there would be little point in entering them. The Farm Path is north. Front Of The Cottage is south. 
 &gt;</result>
@@ -1731,10 +3722,10 @@ An old rotting wooden post is here. Propped up against the post, standing to att
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x1ae22f0"/>
+      <child nodeId="node-0x23ce090"/>
     </children>
   </item>
-  <item nodeId="node-0x1ae22f0">
+  <item nodeId="node-0x23ce090">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 Front Of The Cottage
@@ -1747,10 +3738,10 @@ You approach the front of a large two storey cottage that is very familiar to yo
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x1ae2450"/>
+      <child nodeId="node-0x23ce1f0"/>
     </children>
   </item>
-  <item nodeId="node-0x1ae2450">
+  <item nodeId="node-0x23ce1f0">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 The Barley Field
@@ -1765,10 +3756,10 @@ An old rotting wooden post is here. Propped up against the post, standing to att
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x1ae25b0"/>
+      <child nodeId="node-0x23ce350"/>
     </children>
   </item>
-  <item nodeId="node-0x1ae25b0">
+  <item nodeId="node-0x23ce350">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 The Farm Path
@@ -1783,10 +3774,10 @@ You see a small black cat sheltering under some nearby foliage.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x1ae2710"/>
+      <child nodeId="node-0x23ce4b0"/>
     </children>
   </item>
-  <item nodeId="node-0x1ae2710">
+  <item nodeId="node-0x23ce4b0">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 The Barley Field
@@ -1801,10 +3792,10 @@ An old rotting wooden post is here. Propped up against the post, standing to att
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x1ae2870"/>
+      <child nodeId="node-0x23ce610"/>
     </children>
   </item>
-  <item nodeId="node-0x1ae2870">
+  <item nodeId="node-0x23ce610">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">I beg your pardon?
 
@@ -1815,10 +3806,10 @@ An old rotting wooden post is here. Propped up against the post, standing to att
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x1ae29d0"/>
+      <child nodeId="node-0x23ce770"/>
     </children>
   </item>
-  <item nodeId="node-0x1ae29d0">
+  <item nodeId="node-0x23ce770">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 Front Of The Cottage
@@ -1831,7 +3822,7 @@ You stand in front of a large two storey cottage . A field of barley lies to the
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x7f9b404bb9a0">
+  <item nodeId="node-0x23ce8d0">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve"></result>
     <commentary xml:space="preserve"></commentary>
@@ -1840,10 +3831,10 @@ You stand in front of a large two storey cottage . A field of barley lies to the
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7f9b404bb840"/>
+      <child nodeId="node-0x23cea30"/>
     </children>
   </item>
-  <item nodeId="node-0x7f9b404bb840">
+  <item nodeId="node-0x23cea30">
     <command xml:space="preserve"> </command>
     <result xml:space="preserve">In the winter of 1815, after countless millions had perished, the Napoleonic Wars came to an end. The little corporal Napoleon Bonaparte, emperor of France for the decade previous, was exiled to the volcanic island of St Helena where he would see out the last six years of his life.
 
@@ -1862,10 +3853,10 @@ Please press SPACE to continue.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7f9b404bb6e0"/>
+      <child nodeId="node-0x23ceb90"/>
     </children>
   </item>
-  <item nodeId="node-0x7f9b404bb6e0">
+  <item nodeId="node-0x23ceb90">
     <command xml:space="preserve"> </command>
     <result xml:space="preserve">
 The Scarecrow
@@ -1888,10 +3879,10 @@ You see a small black cat sheltering under some nearby foliage.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7f9b404bbb00"/>
+      <child nodeId="node-0x23cecf0"/>
     </children>
   </item>
-  <item nodeId="node-0x7f9b404bbb00">
+  <item nodeId="node-0x23cecf0">
     <command xml:space="preserve">enter corn</command>
     <result xml:space="preserve">The fields of corn seem to go on forever and there would be little point in entering them. The Barley Field is south. 
 
@@ -1902,10 +3893,10 @@ You see a small black cat sheltering under some nearby foliage.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7f9b404bbc60"/>
+      <child nodeId="node-0x23cee50"/>
     </children>
   </item>
-  <item nodeId="node-0x7f9b404bbc60">
+  <item nodeId="node-0x23cee50">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">(first opening the wooden gate)
 
@@ -1923,12 +3914,435 @@ An old rotting wooden post is here. Propped up against the post, standing to att
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7f9b404bbdc0"/>
+      <child nodeId="node-0x23f1070"/>
     </children>
   </item>
-  <item nodeId="node-0x7f9b404bbdc0">
+  <item nodeId="node-0x23f1070">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">The fields of corn seem to go on forever and there would be little point in entering them. The Farm Path is north. Front Of The Cottage is south. 
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x23f11d0">
+    <command xml:space="preserve">x</command>
+    <result xml:space="preserve"></result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x23f1330"/>
+    </children>
+  </item>
+  <item nodeId="node-0x23f1330">
+    <command xml:space="preserve"> </command>
+    <result xml:space="preserve">In the winter of 1815, after countless millions had perished, the Napoleonic Wars came to an end. The little corporal Napoleon Bonaparte, emperor of France for the decade previous, was exiled to the volcanic island of St Helena where he would see out the last six years of his life.
+
+The end of the Napoleonic wars saw the start of a great agricultural depression in the United Kingdom that would last for a quarter of a century. Many farms succumbed to abandonment and disrepair as both landlords and tenants fell into bankruptcy.
+
+It is in the wake of this ruin, far from the bloody fields of Waterloo and Rocquencourt, that you find yourself standing on a long farm road in Suffolk, surrounded by fields of oat, barley and wheat. A dull lifelessness hangs in the air like the fog of war. All is silent, save for the cries of carrion crow circling above. You feel your heart longing for the rural paradise now lost to time and neglect.
+
+Five hundred miles away, a young author called Mary Shelley has finished writing her first novel, &quot;The Modern Prometheus&quot;...
+
+
+Please press SPACE to continue.
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x23f1490"/>
+    </children>
+  </item>
+  <item nodeId="node-0x23f1490">
+    <command xml:space="preserve"> </command>
+    <result xml:space="preserve">
+The Scarecrow
+An exploration of war and belonging by Mikey Hogarth The story genre is &quot;Horror&quot;
+Release 1 / Serial number 130926 / Inform 7 build 6G60 (I6/v6.32 lib 6/12N) SD
+
+The Farm Path
+You are standing on a muddy farm path. A wooden gate to the south leads into a large barley field which forms part of a patchwork vista of yellow and brown draped over the distant landscape. The fields are separated by deep green foliage. 
+
+Your journey here has been long and tiring. Beyond the field to the south you can see a thatched-roof cottage, a place you had once felt a connection with. A place you had once called home. In spite of your aching feet, the cottage no longer feels like an inviting respite. 
+
+The weather is overcast and a gentle rain is falling, casting a damp film across the landscape.  
+
+You see a small black cat sheltering under some nearby foliage.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x23f15f0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x23f15f0">
+    <command xml:space="preserve">x cat</command>
+    <result xml:space="preserve">The cat stares at you with wide yellow eyes which convey both curiosity and caution in equal measures.
+
+The cat meows.
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x2796030"/>
+      <child nodeId="node-0x34b2300"/>
+    </children>
+  </item>
+  <item nodeId="node-0x2796030">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">The Farm Path
+A wooden gate to the south leads to a field of barley. 
+
+You see a small black cat sheltering under some nearby foliage.
+
+You can see a page one of a letter here.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x34b2300">
+    <command xml:space="preserve">x undergrowtn</command>
+    <result xml:space="preserve">Deep green foliage serves as a natural barrier separating the fields.
+
+Something in the nearby undergrowth catches your eye - it appears to be a letter.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x34b21a0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x34b21a0">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">The Farm Path
+A wooden gate to the south leads to a field of barley. 
+
+You see a small black cat sheltering under some nearby foliage.
+
+You can see page one of a letter here.
+
+You hear the harsh &quot;caw&quot; of a crow.
+
+The cat begins scratching in the undergrowth.
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x34b2460"/>
+    </children>
+  </item>
+  <item nodeId="node-0x34b2460">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">(first opening the wooden gate)
+
+The Barley Field
+As you enter the barley field, your mind drifts to the fields of battle in the aftermath of Waterloo. The casualties were horrendous, the victory far from glorious. Many of the soldiers who died that day, the &quot;scum of the earth&quot; as Wellington had described them, had been recruited from villages and hamlets nearby. Wellington had later claimed  that it was &quot;really wonderful that we should have made these men into the fine fellows they are.&quot; You consider the barrenness of that statement  now that tens of thousands of those fine fellows are dead. Many of those who survived were not the same as they were before the war, having succumbed to war exhaustion or madness, or worse.
+
+The chill wind is making it hard to breathe, and you begin to feel light headed. Further south through the fields you can see the old farm cottage. 
+
+An old rotting wooden post is here. Propped up against the post, standing to attention, is a lone scarecrow.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x34b25c0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x34b25c0">
+    <command xml:space="preserve">x scarecrow</command>
+    <result xml:space="preserve">The scarecrow is wearing a tattered red coat and a pair of old grey trousers. Black rubber boots and a shapeless cloth hat with a wide, crinkly brim complete the outfit.
+
+The scarecrow&apos;s head is made from a hessian sack, onto which has been drawn the approximation of a face. You can not tell whether the scarecrow is smiling or frowning, and his eyes stare blankly through you. The scarecrow is soaked through with rain - he has clearly been standing in this field for some time.
+
+As you stare at the scarecrow, you feel a deep nausea as you come to accept an affinity with him. You consider the folly in his defence of fields that have been abandoned and ravaged by disease. His battlefield is a barren waste, his war over. He has been standing here so long, the crows are no longer afraid of him. Perhaps now the fight is over, they are his only companions.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x34b2720"/>
+    </children>
+  </item>
+  <item nodeId="node-0x34b2720">
+    <command xml:space="preserve">x boots</command>
+    <result xml:space="preserve">A muddy black pair of wellingtons.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x34b2880"/>
+    </children>
+  </item>
+  <item nodeId="node-0x34b2880">
+    <command xml:space="preserve">x coat</command>
+    <result xml:space="preserve">A tattered red coat.
+
+As you run your fingers along the hem of one of the sleeves, a folded piece of paper falls from one of the inside pockets. It appears to be a letter.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x34b29e0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x34b29e0">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">The Barley Field
+You are standing in a field of barley. To the north is a wooden gate leading to a farm path. A cottage lies to the south.
+
+An old rotting wooden post is here. Propped up against the post, standing to attention, is a lone scarecrow.
+
+You can also see page two of a letter here.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x34b2b40"/>
+    </children>
+  </item>
+  <item nodeId="node-0x34b2b40">
+    <command xml:space="preserve">se</command>
+    <result xml:space="preserve">The fields of corn seem to go on forever and there would be little point in entering them. The Farm Path is north. Front Of The Cottage is south. 
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x34b2ca0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x34b2ca0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Front Of The Cottage
+You approach the front of a large two storey cottage that is very familiar to you. A field of barley lies to the North. A path leads around the side of the cottage to the southwest. The cottage itself is directly south, the entrance blocked by a heavy oak door.  
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x34b2e00"/>
+    </children>
+  </item>
+  <item nodeId="node-0x34b2e00">
+    <command xml:space="preserve">se</command>
+    <result xml:space="preserve">You follow garden path to the back of the cottage.
+
+Back of the Cottage
+You arrive in an ample-sized clearing of trampled barley which serves as a yard for the cottage. The fields continue off into the distance in all directions.  
+
+On the perimeter of the clearing is an old, broken turnwrest plough.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x36320a0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x36320a0">
+    <command xml:space="preserve">x plough</command>
+    <result xml:space="preserve">In addition to the rust and general disrepair of the plough, the cumbersome plough also appears to have been damaged - the blades and handles are bent at awkward angles rendering the plough useless.
+
+Hanging from the plough, you see a rusty key.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x3632200"/>
+    </children>
+  </item>
+  <item nodeId="node-0x3632200">
+    <command xml:space="preserve">ne</command>
+    <result xml:space="preserve">You follow the garden path around to the front of the cottage.
+
+Front Of The Cottage
+You stand in front of a large two storey cottage . A field of barley lies to the North. A path leads around the side of the cottage to the southwest. The cottage itself is directly south, the entrance blocked by a heavy oak door.  
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x3632360"/>
+    </children>
+  </item>
+  <item nodeId="node-0x3632360">
+    <command xml:space="preserve">se</command>
+    <result xml:space="preserve">You follow garden path to the back of the cottage.
+
+Back of the Cottage
+You are standing at the rear of the cottage.
+
+On the perimeter of the clearing is an old, broken turnwrest plough.
+
+On the plough is a rusty key.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x36324c0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x36324c0">
+    <command xml:space="preserve">get key</command>
+    <result xml:space="preserve">As you pick up the key, your heart jolts - you hear four loud bangs coming from the front of the cottage, like metal knocking on wood. The sound echoes around the hills and then all is silent again.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x3632620"/>
+    </children>
+  </item>
+  <item nodeId="node-0x3632620">
+    <command xml:space="preserve">se</command>
+    <result xml:space="preserve">The fields of corn seem to go on forever and there would be little point in entering them. Front Of The Cottage is northwest. 
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x3632780"/>
+    </children>
+  </item>
+  <item nodeId="node-0x3632780">
+    <command xml:space="preserve">ne</command>
+    <result xml:space="preserve">You follow the garden path around to the front of the cottage.
+
+As you make your way around the front of the cottage, you survey the area to see if you can identify the cause of the banging. Just as you are about to resign to having imagined the sound, you observe to your horror that the field to the north is now empty. The scarecrow has left his post! You can vaguely make out that something has been nailed to the post in place of the scarecrow, flapping gently in the breeze.
+
+Please press SPACE to continue.
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x36328e0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x36328e0">
+    <command xml:space="preserve"> </command>
+    <result xml:space="preserve">
+Front Of The Cottage
+You stand in front of a large two storey cottage . A field of barley lies to the North. A path leads around the side of the cottage to the southwest. The cottage itself is directly south, the entrance blocked by a heavy oak door. 
+
+In the field to the north you can see something nailed to a post.  
+
+You feel a cool breeze.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x3632a40"/>
+    </children>
+  </item>
+  <item nodeId="node-0x3632a40">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+The Barley Field
+You are standing in a field of barley. To the north is a wooden gate leading to a farm path. A cottage lies to the south.
+
+An old rotting wooden post is here. 
+
+On the post is a note.
+
+You can also see page two of a letter here.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x3632ba0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x3632ba0">
+    <command xml:space="preserve">x note</command>
+    <result xml:space="preserve">There is a message inscribed onto the note in what looks like charcoal. The author has used aggressive straight lines to etch out each letter. The message reads:
+
+&quot;Your place is in the fields&quot;
+
+You hear the harsh &quot;caw&quot; of a crow.
 
 &gt;</result>
     <commentary xml:space="preserve"></commentary>

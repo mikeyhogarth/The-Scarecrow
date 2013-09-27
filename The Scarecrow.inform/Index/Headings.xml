@@ -32,105 +32,105 @@
     </dict>
     <key>4</key><dict>
         <key>Filename</key><string>/home/mikey/Stories/The-Scarecrow/The Scarecrow.inform/Source/story.ni</string>
-        <key>Line</key><integer>65</integer>
+        <key>Line</key><integer>64</integer>
         <key>Title</key><string>Section 3 - Additional Commands</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>5</key><dict>
         <key>Filename</key><string>/home/mikey/Stories/The-Scarecrow/The Scarecrow.inform/Source/story.ni</string>
-        <key>Line</key><integer>80</integer>
+        <key>Line</key><integer>79</integer>
         <key>Title</key><string>Section 4 - Atmosphere</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>6</key><dict>
         <key>Filename</key><string>/home/mikey/Stories/The-Scarecrow/The Scarecrow.inform/Source/story.ni</string>
-        <key>Line</key><integer>119</integer>
+        <key>Line</key><integer>129</integer>
         <key>Title</key><string>Section 5 - Out of world commands</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>7</key><dict>
         <key>Filename</key><string>/home/mikey/Stories/The-Scarecrow/The Scarecrow.inform/Source/story.ni</string>
-        <key>Line</key><integer>128</integer>
+        <key>Line</key><integer>138</integer>
         <key>Title</key><string>Part 2 - The Outdoor Area</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>8</key><dict>
         <key>Filename</key><string>/home/mikey/Stories/The-Scarecrow/The Scarecrow.inform/Source/story.ni</string>
-        <key>Line</key><integer>149</integer>
+        <key>Line</key><integer>159</integer>
         <key>Title</key><string>Chapter 1 - The Farm Path</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>9</key><dict>
         <key>Filename</key><string>/home/mikey/Stories/The-Scarecrow/The Scarecrow.inform/Source/story.ni</string>
-        <key>Line</key><integer>200</integer>
+        <key>Line</key><integer>210</integer>
         <key>Title</key><string>Chapter 2 - The Barley Field</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>10</key><dict>
         <key>Filename</key><string>/home/mikey/Stories/The-Scarecrow/The Scarecrow.inform/Source/story.ni</string>
-        <key>Line</key><integer>231</integer>
+        <key>Line</key><integer>241</integer>
         <key>Title</key><string>Chapter 3 - Front of the Cottage</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>11</key><dict>
         <key>Filename</key><string>/home/mikey/Stories/The-Scarecrow/The Scarecrow.inform/Source/story.ni</string>
-        <key>Line</key><integer>279</integer>
+        <key>Line</key><integer>288</integer>
         <key>Title</key><string>Chapter 4 - Back of the Cottage</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>12</key><dict>
         <key>Filename</key><string>/home/mikey/Stories/The-Scarecrow/The Scarecrow.inform/Source/story.ni</string>
-        <key>Line</key><integer>307</integer>
+        <key>Line</key><integer>316</integer>
         <key>Title</key><string>Part 3 - The Indoors Area</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>13</key><dict>
         <key>Filename</key><string>/home/mikey/Stories/The-Scarecrow/The Scarecrow.inform/Source/story.ni</string>
-        <key>Line</key><integer>311</integer>
+        <key>Line</key><integer>320</integer>
         <key>Title</key><string>Chapter 5 - The Lobby</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>14</key><dict>
         <key>Filename</key><string>/home/mikey/Stories/The-Scarecrow/The Scarecrow.inform/Source/story.ni</string>
-        <key>Line</key><integer>329</integer>
+        <key>Line</key><integer>338</integer>
         <key>Title</key><string>Chapter 6 - The Kitchen</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>15</key><dict>
         <key>Filename</key><string>/home/mikey/Stories/The-Scarecrow/The Scarecrow.inform/Source/story.ni</string>
-        <key>Line</key><integer>333</integer>
+        <key>Line</key><integer>342</integer>
         <key>Title</key><string>Chapter 7 - The Living Room</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>16</key><dict>
         <key>Filename</key><string>/home/mikey/Stories/The-Scarecrow/The Scarecrow.inform/Source/story.ni</string>
-        <key>Line</key><integer>337</integer>
+        <key>Line</key><integer>346</integer>
         <key>Title</key><string>Chapter 8 - The Upstairs Hallway</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>17</key><dict>
         <key>Filename</key><string>/home/mikey/Stories/The-Scarecrow/The Scarecrow.inform/Source/story.ni</string>
-        <key>Line</key><integer>341</integer>
+        <key>Line</key><integer>350</integer>
         <key>Title</key><string>Chapter 9 - The Bedroom</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>18</key><dict>
         <key>Filename</key><string>/home/mikey/Stories/The-Scarecrow/The Scarecrow.inform/Source/story.ni</string>
-        <key>Line</key><integer>345</integer>
+        <key>Line</key><integer>354</integer>
         <key>Title</key><string>Chapter 10 - The Bathroom</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>2</integer>

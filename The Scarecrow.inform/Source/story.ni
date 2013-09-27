@@ -61,7 +61,6 @@ To move (pawn - an animal) tidily to (target - a room):
     now the last location of the pawn is the holder of the pawn;
     move the pawn to the target.
 
-
 Section 3 - Additional Commands
 
 Knocking is an action applying to one visible thing. Understand "knock [something]" and "knock on [something]" as knocking. Carry out knocking something: say "You are not sure that knocking on that will achieve anything."
@@ -84,6 +83,9 @@ Every turn when a random chance of 1 in 6 succeeds and the location of the playe
 
 [Letter fragments]
 letters found is a number that varies.
+
+When play begins, let letters found be 0.
+
 A letter is a kind of thing. letters are proper-named.
 
 Instead of examining a letter (called the current letter):
@@ -104,6 +106,14 @@ after examining the foliage for the first time:
 
 after examining the coat for the first time:
 	say "As you run your fingers along the hem of one of the sleeves, a folded piece of paper falls from one of the inside pockets. It appears to be a letter.";
+	place a letter in the players room.	
+
+after examining the fields of corn for the first time:
+	say "In amongst the crop here you see a folded piece of paper. It appears to be a letter.";
+	place a letter in the players room.
+	
+after examining the table for the first time:
+	say "Tucked into the woodwork beneath the table, you find a folded piece of paper. It appears to be a letter.";
 	place a letter in the players room.	
 
 To place a letter in the players room:
@@ -136,7 +146,7 @@ The Crows are a backdrop. "Yay, crows." The crows are in the outdoors area. Unde
 
 The foliage is a backdrop. "Deep green foliage serves as a natural barrier separating the fields." The foliage is in the outdoors area. Understand "Undergrowth" as the foliage.
 
-The fields of corn is a backdrop. It is in The Outdoors Area. The printed name of the fields of corn is "Corn". Understand "Barley" or "Oats" or "Corn" or "Wheat" or "Fields" or "Field" or "Patchwork" or "Hills" or "Vista" as the fields of corn. The description is "Acres of barley, wheat and oat stretch over the horizon. The fields are wild and unkempt. Many of the crops have been ravaged by disease."
+The fields of corn is a backdrop. It is in The Outdoors Area. The printed name of the fields of corn is "Corn". Understand "Barley" or "Oats" or "Corn" or "Cornfield" or "Wheat" or "Wheatfield" or "Fields" or "Field" or "Patchwork" or "Hills" or "Vista" as the fields of corn. The description is "Acres of barley, wheat and oat stretch over the horizon. The fields are wild and unkempt. Many of the crops have been ravaged by disease."
 
 The Cottage Exterior is a backdrop. It is in The Outdoors Area. The printed name of the cottage exterior is "Cottage". Understand "Cottage" or "House" or "Chimney" or "Windows" as the cottage exterior. The description is "The large cottage is comprised of two floors. It is reddish-beige in colour has a thatched roof. A heavy and weather-worn oak door at the front of the cottage serves as the entrance."
 
@@ -263,7 +273,6 @@ Before opening or pushing or pulling the front door when the front door is locke
 	stop the action.
 
 After going from back of the cottage when the post is spooky:
-	clear the screen;
 	say "As you make your way around the front of the cottage, you survey the area to see if you can identify the cause of the banging. Just as you are about to resign to having imagined the sound, you observe to your horror that the field to the north is now empty. [paragraph break]The scarecrow has left his post![paragraph break] You can vaguely make out that something has been nailed to the post in place of the scarecrow, flapping gently in the breeze.[roman type]";
 	pause the game;
 	now the post is unspooky;

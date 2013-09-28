@@ -1,5 +1,5 @@
 "The Scarecrow" by Mikey Hogarth
-The story genre is "Horror". The release number is 1. The story headline is "An exploration of war and belonging". The story creation year is 2013.
+The story genre is "Horror". The release number is 1. The story headline is "A short Napoleonic agricultural horror". The story creation year is 2013.
 
 Release along with an interpreter.
 
@@ -15,7 +15,7 @@ When play begins:
 
 The end of the Napoleonic wars saw the start of a great agricultural depression in the United Kingdom that would last for a quarter of a century. Many farms succumbed to abandonment and disrepair as both landlords and tenants fell into bankruptcy. 
 
-It is in the wake of this ruin, far from the bloody fields of Waterloo and Rocquencourt, that you find yourself standing on a long farm road in Suffolk, surrounded by fields of oat, barley and wheat. A dull lifelessness hangs in the air like the fog of war. All is silent, save for the cries of carrion crow circling above. You feel your heart longing for the rural paradise now lost to time and neglect.
+It is in the wake of this ruin, far from the bloody fields of Waterloo and Rocquencourt, that you find yourself standing on a long farm road in Suffolk, surrounded by patchwork fields of oat, barley and wheat. A dull lifelessness hangs in the air like the fog of war. All is silent, save for the cries of carrion crow circling above. 
 
 Five hundred miles away, a young author called Mary Shelley has finished writing her first novel, 'The Modern Prometheus'..." ; 
 pause the game.
@@ -60,6 +60,7 @@ Carry out following:
 To move (pawn - an animal) tidily to (target - a room):
     now the last location of the pawn is the holder of the pawn;
     move the pawn to the target.
+
 
 Section 3 - Additional Commands
 
@@ -134,6 +135,8 @@ To say exit list:
 		let place be the room way from the location;
 		if place is a room, say "[place] is [way]. " 
 
+after going nowhere:
+	say exit list.
 
 Part 2 - The Outdoor Area
 
@@ -158,15 +161,14 @@ instead of entering the corn:
 
 Chapter 1 - The Farm Path
 
-There is a room called The Farm Path. "[if unvisited]You are standing on a muddy farm path. A wooden gate to the south leads into a large barley field which forms part of a patchwork vista of yellow and brown draped over the distant landscape. The fields are separated by deep green foliage.
-[paragraph break]Your journey here has been long and tiring. Beyond the field to the south you can see a thatched-roof cottage, a place you had once felt a connection with. A place you had once called home. In spite of your aching feet, the cottage no longer feels like an inviting respite.
-[paragraph break]The weather is overcast and a gentle rain is falling, casting a damp film across the landscape.
+There is a room called The Farm Path. "[if unvisited]You are standing on a muddy farm path. A wooden gate to the south leads into a large barley field. Similar fields lead off into the distance, separated from one another by deep green foliage.
+[paragraph break]Your journey here has been long and tiring. Beyond the field to the south you can see a thatched-roof cottage, a place you had once felt a connection with. A place you had once called home. In spite of your aching feet, the cottage no longer feels like an inviting respite.[paragraph break]The weather is overcast and a gentle rain is falling, casting a damp film across the landscape.
 [otherwise]A wooden gate to the south leads to a field of barley.[end if]
 [if the cat is in the location][paragraph break]You see a small black cat sheltering under some nearby foliage.[end if]" 
 
 The cat is an animal in the farm path. The printed name of the cat is "the cat". the cat is proper-named. Understand "Wellington" as the cat. The cat is scenery. The description of the cat is "The cat stares at you with wide yellow eyes which convey both curiosity and caution in equal measures." 
 
-The cat is wearing a silver collar. The description of the collar is "The cats name is Wellington." After examining the collar: now the printed name of the cat is "Wellington". instead of examining the collar when the cat is uncomfortable, say "The cat edges away warily before you can get close enough."
+The cat is wearing a silver collar. The description of the collar is "The cats name is Wellington." After examining the collar: now the printed name of the cat is "Wellington". instead of examining the collar when the cat is uncomfortable, say "The cat edges away warily before you can get close enough. Evidently he is still a little wary of you."
 
 Instead of touching the cat, say "[printed name of cat in sentence case][one of] purrs loudly.[or] rubs his face against your leg.[cycling]"
 

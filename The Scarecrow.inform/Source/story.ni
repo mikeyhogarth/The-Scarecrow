@@ -18,10 +18,10 @@ When play begins:
 
 The end of the Napoleonic wars saw the start of a great agricultural depression in the United Kingdom that would last for a quarter of a century. Many farms succumbed to abandonment and disrepair as both landlords and tenants fell into bankruptcy. 
 
-It is in the wake of this ruin, far from the bloody fields of Waterloo and Rocquencourt, that you find yourself standing on a long farm road in Suffolk, surrounded by patchwork fields of oat, barley and wheat. A dull lifelessness hangs in the air like the fog of war. All is silent, save for the cries of carrion crow circling above. 
+It is in the wake of this ruin, far from the bloody fields of Waterloo and Rocquencourt, that you find yourself standing on a long farm road in Suffolk, surrounded by patchwork fields of oat, barley and wheat. The crops around you reek of disease and neglect, and a dull lifelessness hangs in the air like the fog of war. All is silent, save for the cries of carrion crow circling above. 
 
 Five hundred miles away, a young author called Mary Shelley has just completed her first novel, 'The Modern Prometheus'..." ; 
-pause the game;
+	pause the game;
 	say "[paragraph break]The weather is overcast and a gentle rain is falling. The wind is chill, and the crows are legion.[paragraph break]"
  
 
@@ -40,11 +40,19 @@ A room is either indoors or outdoors. A room is usually indoors.
 
 A thing can be hidden or visible.
 An thing can be scarecrowed or unscarecrowed. A thing is usually unscarecrowed.
+An thing can be dormoused or undormoused. A thing is usually undormoused.
 A thing can be spooky or unspooky. A thing is usually unspooky.
 A thing can be dusty or undusty. A thing is usually undusty.
 A thing can be identified or unidentified. A thing is usually unidentified.
 An animal can be comfortable or uncomfortable. An animal is usually uncomfortable.
 An animal has a room called last location.
+
+A staircase is a kind of door. A staircase is usually open. A staircase is seldom openable. Understand "stairs" or "stair" or "staircase" as a staircase. Understand "upstairs" or "downstairs" as a staircase. 
+
+Instead of climbing a staircase:
+	try entering the noun.
+
+Understand the commands "ascend" and "descend" as climb. Understand "go down [staircase]" as climbing. Understand "go up [staircase]" as climbing.
 
 Understand "follow [any thing]" as following. Understand the commands "chase" and "pursue" as "follow".
 
@@ -157,16 +165,16 @@ The Outdoors Area is a region.
 [Region wide backdrops]
 The Sky is a backdrop. "Dull, grey clouds hang overhead." The Sky is in the Outdoors Area. Understand "Weather" and "mist" as the sky.
 
-The Crows are a backdrop. "You estimate around a hundred crows are circling around the cottage or scavenging among the fields. Their plumage is a glossy jet black, with a purple and green sheen occasionally visible in the dim sunlight. Some of the crows look very skinny and malnourished." The crows are in the outdoors area. Understand "Crow" and "Birds" as The Crows.
+The Crows are a backdrop. "You estimate around a hundred crows are circling around the cottage or scavenging among the fields like vultures. Their tattered plumage is a glossy jet black, with a purple and green sheen occasionally visible in the dim sunlight. Many of the crows look thin and malnourished, almost skeletal." The crows are in the outdoors area. Understand "Crow" and "Birds" as The Crows.
 
 The foliage is a backdrop. "Deep green foliage serves as a natural barrier separating the distant fields fields." The foliage is in the outdoors area. Understand "Undergrowth" as the foliage.
 
-The fields of corn is a backdrop. It is in The Outdoors Area. The printed name of the fields of corn is "Corn". Understand "Barley" or "Oats" or "Corn" or "Cornfield" or "Wheat" or "Wheatfield" or "Fields" or "Field" or "Patchwork" or "Hills" or "Vista" as the fields of corn. The description is "Acres of barley, wheat and oat stretch over the horizon. Your eyes hurt as you stare into the distance, and the landscape seems to throb giving you a sudden headache. The fields are wild and unkempt. Many of the crops have been ravaged by disease."
+The fields of corn is a backdrop. It is in The Outdoors Area. The printed name of the fields of corn is "Corn". Understand "Barley" or "Oats" or "Corn" or "Cornfield" or "Wheat" or "Wheatfield" or "Fields" or "Field" or "Patchwork" or "Hills" or "Vista" as the fields of corn. The description is "Acres of diseased barley, wheat and oat stretch over the horizon. Your eyes hurt as you stare into the distance, and the landscape seems to throb giving you a sudden headache. The fields are wild and unkempt."
 
 The Cottage Exterior is a backdrop. It is in The Outdoors Area. The printed name of the cottage exterior is "Cottage". Understand "Cottage" or "Window" or "House" or "Chimney" or "Windows" as the cottage exterior. The description is "The large two-storey cottage reddish-beige in colour and has a thatched roof. A heavy and weather-worn oak door at the front of the cottage serves as the entrance."
 
 To enter the corn:
-	say "The fields of corn seem to go on forever and there would be little point in entering them. [exit list][paragraph break]";
+	say "The fields of dead barley seem to go on forever and there would be little point in entering them. [exit list][paragraph break]";
 
 instead of entering the corn:
 	enter the corn.
@@ -281,14 +289,13 @@ Instead of examining the cottage when the strange figure is on-stage, try examin
 
 Chapter 3 - Front of the Cottage
 
-South of the Barley Field is a room called Front Of The Cottage. The Description of Front Of The Cottage is "[if unvisited]You approach the[otherwise]You stand in[end if] front of a large two storey cottage [if unvisited]that is very familiar to you[end if]. A field of barley lies to the north. A path leads around the side of the cottage to the southwest. The cottage itself is directly south, the entrance blocked by a heavy oak door.[paragraph break][if unvisited]The crows continue to circle and caw all around, landing on the various protrusions around the cottage. [paragraph break]You feel suddenly very sad, as if there is something at work in your soul which you do not understand.[end if][if the scarecrow is off-stage and the location of the note is the barley field and the post is unspooky]
+South of the Barley Field is a room called Front Of The Cottage. The Description of Front Of The Cottage is "[if unvisited]You approach the[otherwise]You stand in[end if] front of a large two storey cottage [if unvisited]that is very familiar to you[end if]. A field of barley lies to the north. A path leads around the side of the cottage to the southwest. The cottage itself is directly south, the entrance blocked by a heavy oak door.[if unvisited]The crows continue to circle and caw all around, landing on the various protrusions around the cottage. [paragraph break]You feel suddenly very sad, as if there is something at work in your soul which you do not understand.[end if][if the scarecrow is off-stage and the location of the note is the barley field and the post is unspooky]
 [paragraph break]In the field to the north you can see something nailed to a post.[end if]
-[if the scarecrow is spooky][paragraph break]You can make out a wiry black figure resting against the post to the north.[end if]
-[if strange figure is in the location][bold type][paragraph break]You see a strange figure at one of the cottage's upper windows.[roman type][end if]
-[if the cat is in the location and the cat is uncomfortable][paragraph break]The small black cat from the farm path is here, washing himself among the barley.[end if]
-[if the player is scarecrowed]
-[paragraph break]The sound of the crows is much louder now.[paragraph break]You can make out the figure to the north in more detail now. It is clearly humanoid in appearance, wiry and gaunt. You can't quite tell yet, but there is something not quite right about the figure's bulbous head."
+[if the scarecrow is spooky][paragraph break]You can make out a wiry black figure resting against the post to the north.[end if][if the cat is in the location and the cat is uncomfortable][paragraph break]The small black cat from the farm path is here, washing himself among the barley.[end if]"
 
+after printing the locale description of front of the cottage when the strange figure is on-stage, say "[bold type]You see a strange figure at one of the cottage's upper windows.[roman type][paragraph break]"	
+
+after printing the locale description of front of the cottage when the player is scarecrowed, say "The sound of the crows is much louder now.[paragraph break]You can make out the figure to the north in more detail now. It is clearly humanoid in appearance, wiry and gaunt. You can't quite tell yet, but there is something not quite right about the figure's bulbous head."
 
 Instead of going nowhere from the front of the cottage, enter the corn.
 
@@ -377,7 +384,9 @@ The dust is a backdrop. "Dust hangs in the air and covers every surface, making 
 
 Chapter 5 - The Lobby
 
-The lobby is in the indoors area. The description of The Lobby is "[if unvisited]As you enter the cottage through the heavy oak door, you disturb a number of crows who were sheltering inside. A violent fury of black feathers whip past your face as the crows exit the cottage to join their brothers in the fields. [paragraph break]The lobby itself is bare and largely unfurnished, straw is scattered liberally across the floorboards, which continue south into a food preparation area, and west into a large living room. The room is empty save for a few shelves. [paragraph break] You feel nauseous and short of breath. Surfaces feel cold and damp to the touch.[otherwise]You are in the lobby. The room is large and mostly empty, save for a few shelves. A kitchen is to the south, while to the west is a large living room.[end if][paragraph break]On one of the shelves you see an old clock.[paragraph break]An old rickety staircase leads upstairs.[if the player is scarecrowed][paragraph break]Through the door to the north you can see the barley fields, and the distant outline of the strange figure against the post."
+The lobby is in the indoors area. The description of The Lobby is "[if unvisited]As you enter the cottage through the heavy oak door, you disturb a number of crows who were sheltering inside. A violent fury of black feathers whip past your face as the crows exit the cottage to join their brothers in the fields. [paragraph break]The lobby itself is bare and largely unfurnished, straw is scattered liberally across the floorboards, which continue south into a food preparation area, and west into a large living room. The room is empty save for a few shelves. [paragraph break] You feel nauseous and short of breath. Surfaces feel cold and damp to the touch.[otherwise]You are in the lobby. The room is large and mostly empty, save for a few shelves. A kitchen is to the south, while to the west is a large living room.[end if][paragraph break]On one of the shelves you see an old clock.[paragraph break]An old rickety staircase leads upstairs."
+
+after printing the locale description of the lobby when the player is scarecrowed, say "Through the door to the north you can see the barley fields, and the distant outline of the strange figure against the post."
 
 There is a shelf in the lobby. The shelf is a supporter. The shelf is scenery. On the shelf is a clock. The clock is scenery. Understand "Old Clock" as the clock. Understand "Shelves" as the shelf.
 
@@ -399,7 +408,7 @@ after going to the lobby:
 	now the strange figure is off-stage;
 	continue the action.
 	
-after entering the lobby:
+after going to the upstairs hallway:
 	if the black feather is off-stage:	
 		now the cat is carrying the black feather;
 		continue the action;
@@ -417,7 +426,7 @@ Every turn:
 
 Chapter 6 - The Kitchen
 
-South of the Lobby is a room called The Kitchen. It is in the indoors area. The description of the kitchen is "[if unvisited]You enter a food preparation area[otherwise]You are in the food preparation area[end if] towards the rear of the cottage. An iron-bake oven is here hung on a trammel over a fire pit. There is an old oak table in the centre of the room, and a cupboard against the far wall.[paragraph break]To the north is the lobby."
+South of the Lobby is a room called The Kitchen. It is in the indoors area. The description of the kitchen is "[if unvisited]You enter a food preparation area[otherwise]You are in the food preparation area[end if] towards the rear of the cottage. An iron-bake oven is here hung on a trammel over a fire pit. There is an old oak table in the centre of the room, and a cupboard against the far wall.[paragraph break]To the north is the lobby.[if unvisited][paragraph break]You hear a strange shuffling from upstairs."
 
 The old oak table is scenery in the kitchen. The description of the old oak table is "An old oak table of sturdy build, the table is coated in a thin layer of dust."
 
@@ -466,11 +475,17 @@ after writing some text:
 after writing "George" when the player is in the living room:
 	now the ominous door is unlocked;		
 	say "As you finish writing, you hear a 'click' from upstairs, as if a door were being unlocked."
-	
+
+The wooden staircase is a staircase. It is above The Lobby and below The Upstairs Hallway. It is scenery. The description is "The staircase is old and rickety."	
 
 Chapter 8 - The Upstairs Hallway
 
-Up from the Lobby is a room called The Upstairs Hallway. It is in the indoors area. The description of the upstairs hallway is "[if unvisited]You climb the creaky staircase and emerge in a small hallway. There are no windows up here, but the dim light from downstairs reveals an ominous looking door to the north. Light also emanates from the edges of the door, as if the door leads directly out into the open air. You can just about see that something is etched onto the door.[paragraph break]As the creaking of the floorboards subsides, you realise that you can hear a slow, deep breathing. It appears to be coming from the other side of the door to the north.[otherwise]You are standing in the upstairs hallway of the cottage. The only exits are back downstairs and north towards a room at the front of the cottage.[end if][if the player is scarecrowed][paragraph break]As you stumble into the hallway, you feel an itch at the back of your soft sack-like head. Before you can react, a small dormouse drops past your eyes and makes a small thud on the floor, before scurrying off downstairs."
+The Upstairs Hallway is in the indoors area. The description of the upstairs hallway is "[if unvisited]You climb the creaky staircase and emerge in a small hallway. There are no windows up here, but the dim light from downstairs reveals an ominous looking door to the north. Light also emanates from the edges of the door, as if the door leads directly out into the open air. You can just about see that something is etched onto the door.[paragraph break]As the creaking of the floorboards subsides, you realise that you can hear a slow, deep breathing. It appears to be coming from the other side of the door to the north.[otherwise]You are standing in the upstairs hallway of the cottage. The only exits are back downstairs and north towards a room at the front of the cottage.[end if]"
+
+after printing the locale description of the upstairs hallway when the player is dormoused:
+	say "As you stumble into the hallway, you feel an itch at the back of your soft sack-like head. Before you can react, a small dormouse drops past your eyes and makes a small thud on the floor, before scurrying off downstairs.";
+	now the player is undormoused;
+	continue the action.
 
 The Ominous Door is a door. It is north from the upstairs hallway and south from The Bedroom. The ominous door is locked. The description of the ominous door is "A dusty timber door. Someone has etched the outline of a cat into the centre. The gap at the bottom of the door looks wide enough to see under." The ominous door is scenery. Understand "ominous door" or "timber door" or "dusty door" as the ominous door. 
 
@@ -496,7 +511,7 @@ The Bedroom is a room. It is in the indoors area. The description of the bedroom
 
 The bed is scenery in the bedroom. Understand "Bed frame" or "Frame" or "Ramshackle bed frame" as the bed. The description of the bed is "The frame is old and dilapidated. The bed is missing a mattress."
 
-The window is scenery in the bedroom. The description of the window is "[if the player is unscarecrowed]Through the window you can see the barley field, and the pole where the scarecrow once stood.[otherwise]Through the window, you can see the pole where the scarecrow once stood. In his place, you can see a strange silhouette-like figure propped against the post. It is difficult to tell from this distance, but you think that the figure is staring at you."
+The window is scenery in the bedroom. The description of the window is "[if the player is unscarecrowed]Through the window you can see the barley field, and the pole where the scarecrow once stood.[otherwise]Through the window, you can see the pole where the scarecrow once stood. In his place, you can see a strange silhouette-like figure propped against the post. It is difficult to tell from this distance, but you think that the figure is staring at you. You feel a compulsion to go back downstairs and take a closer look."
 
 The footprints are scenery in the bedroom. "The footprints indicate that whoever was here had been pacing back and forth between the window and the dressing table. A cluster of footprints is also visible just on the inside of the door." 
 
@@ -514,14 +529,13 @@ Instead of examining the mirror:
 	otherwise:
 		do the big reveal.
 
-There is a strapped figure. The strapped figure is a backdrop. "The figure is too far away." Understand "Figure" as the strapped figure.
 
 to do the big reveal:
 	now the note is off-stage;
-	now the cat is off-stage;
-	now the strapped figure is on-stage;
+	now the cat is off-stage;	
 	now the scarecrow is spooky;
 	now the player is scarecrowed;
+	now the player is dormoused;
 	say "As you stare into the glass of the mirror, you realise to your horror that visage staring back at you is that of a scarecrow. You jolt backwards only to see the scarecrow jolt identically. You bring your right hand up to your face, and once again your reflection reciprocates. You contemplate in disbelief that you are a mere facsimile of a man, a thing of straw and cloth. You stumble backwards and use the bed frame to support yourself.[paragraph break]As you correct yourself, you notice something out of the window."	
 
 
@@ -529,7 +543,7 @@ Chapter 10 - the end
 
 Instead of going to the barley field when the player is scarecrowed:
 	clear the screen;
-	say "As you enter the barley field, you see that a wiry figure now stands in place of the scarecrow. As you approach, you realise that the figure, with its glossy black fur and long, sharp fingernails is  neither cat nor human but some kind of monstrous chimera. The creature's emerald eyes focus on you as you move closer towards it, following you as you draw closer. Around its neck hangs a battered wooden plank, upon which is written the name 'George'.[paragraph break]The cat, as you choose to perceive it, is smiling widely, revealing two yellowing fangs beneath brownish lips. He begins to speak;[paragraph break]'Well done, my fine fellow, well done' he laughs, 'Haha, nothing contributes so much to tranquillise the mind as a steady purpose! It wasn't easy but we bloody well did it didn't we! The enemy was nought but a pounder after all!'[paragraph break]The creature notices your confusion.[paragraph break]'I know, nothing is so painful to the human mind as a great and sudden change, but don't you see lad, it's over!' he spins his head around in almost a complete circle, gesturing to the surrounding landscape 'We won! You don't need to defend this land any more, you can return to your old life! Haha!'[paragraph break]George furrows his brow as he notices that you still don't quite understand what he is implying.[paragraph break]'Look' he continues 'There is little point in you resuming your station here, boy, these fields are no longer in need of defence!'[paragraph break]He is clearly losing his patience at your lack of response. His voice takes on a sudden stern-ness.[paragraph break]'I desire what is good. Therefore, everyone who does not agree with me is a traitor. It is good that you have done this service for your kingdom, but your services are no longer required and therefore it is good that you should return to your old life. Unless, that is, you disagree with me?'[paragraph break]And with that, you feel the life drain out of you, and the sack, coat, boots, hat and trousers fall to the floor in a crumpled heap, splashing down unceremoniously into a puddle, in a field, in Suffolk.";
+	say "As you enter the barley field, you see that a wiry figure now stands in place of the scarecrow. As you approach, you realise that the figure, with its glossy black fur and long, sharp fingernails is  neither cat nor human but some kind of monstrous chimera. The creature's emerald eyes focus on you as you move closer towards it, following you as you draw closer. Around its neck hangs a battered wooden plank, upon which is written the name 'George'.[paragraph break]The cat, as you choose to perceive it, is smiling widely, revealing two yellowing fangs beneath brownish lips. He begins to speak;[paragraph break]'Well done, my fine fellow, well done' he laughs, 'Haha, nothing contributes so much to tranquillise the mind as a steady purpose! It wasn't easy but we bloody well did it didn't we! The enemy was nought but a pounder after all!'[paragraph break]The creature notices your confusion.[paragraph break]'I know, nothing is so painful to the human mind as a great and sudden change, but don't you see lad, it's over!' he spins his head around in almost a complete circle, gesturing to the surrounding landscape 'We won! You don't need to defend this land any more, you can return to your old life! Haha!'[paragraph break]George furrows his brow as he notices that you still don't quite understand what he is implying.[paragraph break]'Look' he continues 'There is little point in you resuming your station here, boy, these fields are no longer in need of defence!'[paragraph break]He is clearly losing his patience at your lack of response. His voice takes on a sudden stern-ness.[paragraph break]'I desire what is good. Therefore, everyone who does not agree with me is a traitor. It is good that you have done this service for your kingdom, but your services are no longer required and therefore it is good that you should return to your old life. Unless, that is, you disagree with me?[paragraph break]And with that, you feel the life drain out of you, and the a soggy hessian sack, coat,  boots, hat and trousers fall to the floor in a crumpled heap, splashing down unceremoniously into a puddle, in a field, in Suffolk.";
 	pause the game;
 	clear the screen;
 	say "Thank you for playing [italic type]The Scarecrow[roman type]. It may be of interest to you that the letters scattered throughout the game are fragments from an actual letter from an un-named soldier to his father in the wake of Waterloo, which was published in the Caledonian Mercury on 3 July 1815.[paragraph break]In addition, the text is littered with quotes from Frankenstein as well as actual historical quotes (or, variations upon said quotes)[paragraph break]Finally, thank you to Laura, Matty P, Bennos, Holly and Gary for helping with the playtesting.";
